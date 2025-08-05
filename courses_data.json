@@ -1,0 +1,3008 @@
+[
+    {
+        "_id": "43qf4gd2s",
+        "title": "CU-Full Stack Development",
+        "description": "Master the foundations of Java Full Stack Development. Gain practical skills in building dynamic front-end interfaces, powerful back-end systems, and managing databases. Learn to integrate technologies across the software stack to develop end-to-end web applications and kickstart your career as a full stack developer.",
+        "whatYouLearn": "Master the MERN stack to build dynamic, full-stack web applications using MongoDB, Express.js, React, and Node.js. Learn hands-on by creating responsive, scalable, and user-friendly websites suitable for diverse industries.",
+        "whatYouLearnPoints": [
+            "MongoDB",
+            "CRUD operations  ",
+            "Frontend with React",
+            "  Server-side with Node.js ",
+            "Authentication techniques ",
+            " Real-time web apps  ",
+            "Version control (Git)  Deployment practices"
+        ],
+        "benefits": "Full-stack web developers are in high demand across India's tech industry. Freshers can expect salaries ranging from ₹1.8 LPA to ₹11 LPA, depending on the company and location (Ref. AmbitionBox). MERN stack proficiency enhances employability, offering opportunities in service- and product-based companies.",
+        "designations": [
+            "Full-Stack Developer",
+            " Web Developer ",
+            "Back-End Developer ",
+            "Software Engineer ",
+            "Frontend Developer",
+            "Junior Web Developer"
+        ],
+        "hiringCompanies": [
+            "Zoho",
+            "TCS",
+            " Infosys",
+            " Wipro ",
+            "Cognizant",
+            " Flipkart ",
+            "Freshworks ",
+            "Zomato ",
+            "Swiggy"
+        ],
+        "salaryMin": 800000,
+        "salaryAvg": 1000000,
+        "salaryMax": 25000000,
+        "status": "published",
+        "sortOrder": 0,
+        "viewStyle": "v2",
+        "courseCombo": [],
+        "faqs": [
+            {
+                "question": "Do I need prior web development knowledge?",
+                "answer": "Basic HTML and JavaScript are helpful."
+            },
+            {
+                "question": "Is this course suitable for beginners?",
+                "answer": "Yes, this course is designed for students with a basic understanding of web development (HTML, CSS, and JavaScript). The course starts from fundamentals and gradually progresses to advanced topics."
+            },
+            {
+                "question": "Do I need to learn backend and frontend separately?",
+                "answer": "No, the MERN stack is a complete full-stack solution. You'll learn both backend (Node.js, Express) and frontend (React) in the same course."
+            },
+            {
+                "question": "Will this course cover both Angular and React?",
+                "answer": "No, the course focuses on React"
+            },
+            {
+                "question": "Which is better, Angular or React?",
+                "answer": "Both Angular and React are popular front-end frameworks. React is lighter, focuses on UI components, and offers more flexibility. Angular, on the other hand, is a complete framework that follows MVC architecture."
+            }
+        ],
+        "modules": [
+            {
+                "_id": "43qf5a7d8",
+                "title": "Frontend Development",
+                "topics": [
+                    {
+                        "_id": "43qga24pb",
+                        "title": "HTML/CSS Fundamentals",
+                        "subTopics": [
+                            {
+                                "_id": "43qga24qq",
+                                "title": "HTML5",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qbzm8w7/html-css-and-javascript-basics/html5",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qga4jem",
+                                "title": "CSS",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qbzmfhg/html-css-and-javascript-basics/css",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quz8nqg",
+                                "title": "MCQ - HTML/CSS Fundamentals",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qsarg77/cu-mern-html-css-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgd47dz",
+                                "title": "Practice 1 - HTML/CSS Fundamentals",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd4s8fq/html-css-and-javascript-basics/practice-1-html-css-fundamentals",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnng95j",
+                                "title": "Practice 2 - HTML/CSS Fundamentals",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnn6tmh/html-css-and-javascript-basics/practice-2-html-css-fundamentals",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnngsnp",
+                                "title": "Practice 3 - HTML/CSS Fundamentals",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnn6wdw/html-css-and-javascript-basics/practice-3-html-css-fundamentals",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qga5xu5",
+                        "title": "JavaScript",
+                        "subTopics": [
+                            {
+                                "_id": "43qga5xwa",
+                                "title": "Variables",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qbzmja8/html-css-and-javascript-basics/javascript-variables",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qga6zya",
+                                "title": "Conditional Statements",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcrrfu6/html-css-and-javascript-basics/javascript-conditional-statements",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qga7mwq",
+                                "title": "Looping Statements",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcrvd5k/html-css-and-javascript-basics/javascript-looping-statements",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qga8bu6",
+                                "title": "Arrays",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcs2fnt/html-css-and-javascript-basics/javascript-arrays",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qga8wgy",
+                                "title": "Document Object Model",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcs6kgx/html-css-and-javascript-basics/javascript-dom",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzaw2y",
+                                "title": "MCQ - JavaScript",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qs4gfhf/cu-mern-javascript-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgd5jwx",
+                                "title": "Practice 1 - JavaScript",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd5nuuh/html-css-and-javascript-basics/practice-1-javascript",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnnm255",
+                                "title": "Practice 2 - JavaScript",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnnn5yz/html-css-and-javascript-basics/practice-2-javascript",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnnmfz4",
+                                "title": "Practice 3 - JavaScript",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnnn8k6/html-css-and-javascript-basics/practice-3-javascript",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qga9y2j",
+                        "title": "React",
+                        "subTopics": [
+                            {
+                                "_id": "43qga9y3x",
+                                "title": "Introduction to React",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc2323z/modern-front-end-development-with-react/introduction-to-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgab3uj",
+                                "title": "Installation",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc23744/modern-front-end-development-with-react/installation",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgabzqd",
+                                "title": "Building and Importing Components in REACT",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc239uy/modern-front-end-development-with-react/building-and-importing-components-in-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgacn66",
+                                "title": "Parent-to-Child data communication via props",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc23bzq/modern-front-end-development-with-react/parent-to-child-data-communication-via-props",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgad8aw",
+                                "title": "Handling Events in React",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc23fx9/modern-front-end-development-with-react/handling-events-in-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgae7r6",
+                                "title": "State Management and usestate Hook in React",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcsqggb/modern-front-end-development-with-react/state-management-and-usestate-hook-in-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgaev5c",
+                                "title": "Conditional Rendering in React",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qcssjya/modern-front-end-development-with-react/conditional-rendering-in-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgaffrh",
+                                "title": "useEffect Hook",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd2556k/modern-front-end-development-with-react/useeffect-hook",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzcdmw",
+                                "title": "MCQ - React",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qs4yqge/cu-mern-react-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgd6txc",
+                                "title": "Practice 1 - React",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpb3d9/modern-front-end-development-with-react/practice-1-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnp6487",
+                                "title": "Practice 2 - React",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpb5dz/modern-front-end-development-with-react/practice-2-react",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnp6wjg",
+                                "title": "Practice 3 - React",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpb7vu/modern-front-end-development-with-react/practice-3-react",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qrbjwqm",
+                        "title": "Node.js",
+                        "subTopics": [
+                            {
+                                "_id": "43qrbjwud",
+                                "title": "NodeJS Fundamentals",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc27dr7/introduction-to-backend-development/nodejs-fundamentals",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrbm5w4",
+                                "title": "ExpressJS Fundamentals",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc27ds9/introduction-to-backend-development/expressjs-fundamentals",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzdvmn",
+                                "title": "MCQ - Node.js",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qsdmz6v/cu-mern-nodejs-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrbnc36",
+                                "title": "Practice 1 - Node.js",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpq7y4/introduction-to-backend-development/practice-1-node-js",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrbnjve",
+                                "title": "Practice 2 - Node.js",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpq9w3/introduction-to-backend-development/practice-2-node-js",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrbnrfp",
+                                "title": "Practice 3 - Node.js",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnpqdm3/introduction-to-backend-development/practice-3-node-js",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qgajnhd",
+                "title": "Backend Development",
+                "topics": [
+                    {
+                        "_id": "43qganxyf",
+                        "title": "MongoDB",
+                        "subTopics": [
+                            {
+                                "_id": "43qganxzs",
+                                "title": "MongoDB Fundamentals",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc27mbs/database-management-integration/mongodb-fundamentals",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgars6r",
+                                "title": "Inserting Documents",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qc27nus/database-management-integration/inserting-documents",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgasgjz",
+                                "title": "Reading Documents",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd2stkb/database-management-integration/reading-documents",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgat9n2",
+                                "title": "Updating Documents",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd2v7hf/database-management-integration/updating-documents",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgatzfz",
+                                "title": "Deleting Documents",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd2wtbe/database-management-integration/deleting-documents",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgauwxk",
+                                "title": "Mongoose Schema",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qd4g376/database-management-integration/mongoose-schema",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzf8jg",
+                                "title": "MCQ - MongoDB",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qu9dwg4/cu-mern-mongodb-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgda424",
+                                "title": "Practice 1 - MongoDB",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnqhtm4/database-management-integration/practice-1-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnqu6jt",
+                                "title": "Practice 2 - MongoDB",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnqhvea/database-management-integration/practice-2-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnqug5h",
+                                "title": "Practice 3 - MongoDB",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnqhyqc/database-management-integration/practice-3-mongodb",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qgcpypu",
+                        "title": "Backend",
+                        "subTopics": [
+                            {
+                                "_id": "43qgcpyrn",
+                                "title": "Middleware in Express",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qgckm4b/middleware/middleware-in-express",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzgrmh",
+                                "title": "MCQ - Backend",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qu5cu4e/cu-mern-backend-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qgdbcr7",
+                                "title": "Practice 1 - Backend",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnr27yn/introduction-to-backend-development/practice-1-backend",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnqyfc9",
+                                "title": "Practice 2 - Backend",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnr29sm/introduction-to-backend-development/practice-2-backend",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnqythj",
+                                "title": "Practice 3 - Backend",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnr2bgg/introduction-to-backend-development/practice-3-backend",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qtyzr3u",
+                        "title": "Full Stack Integration",
+                        "subTopics": [
+                            {
+                                "_id": "43qtyzr6s",
+                                "title": "Integration: Frontend & Backend",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qjxs8yy/full-stack-integration-project-development/integration-frontend-backend",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qtz3393",
+                                "title": "State Management using Redux",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qjy75yt/full-stack-integration-project-development/state-management-using-redux",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzja8p",
+                                "title": "MCQ - Full Stack Integration",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43quygh5r/cu-mern-fullstack-integration-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qtz7jhx",
+                                "title": "Practice 1 - Full Stack Integration",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qjzj7hv/full-stack-integration-project-development/practice-1-fullstack-integration",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qtz7unz",
+                                "title": "Practice 2 - Full Stack Integration",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnsrnbx/full-stack-integration-project-development/practice-2-fullstack-integration",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qtz87zw",
+                                "title": "Practice 3 - Full Stack Integration",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnsrray/full-stack-integration-project-development/practice-3-fullstack-integration",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qjypdzn",
+                "title": "Full Stack Integration & Project Development",
+                "topics": [
+                    {
+                        "_id": "43qjyyzaw",
+                        "title": "Authentication Systems",
+                        "subTopics": [
+                            {
+                                "_id": "43qjyyzc7",
+                                "title": "Authentication & Authorization",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qjy4xz3/full-stack-integration-project-development/authentication-authorization",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43quzm6v5",
+                                "title": "MCQ - Authentication Systems",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43quz79gu/cu-mern-authentication-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qntr8j8",
+                                "title": "Practice 1 - Authentication Systems",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnt83b9/full-stack-integration-project-development/practice-1-authentication-system",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qntrwvt",
+                                "title": "Practice 2 - Authentication Systems",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnt86ur/full-stack-integration-project-development/practice-2-authentication-system",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnts7n8",
+                                "title": "Practice 3 - Authentication Systems",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43qnt88p4/full-stack-integration-project-development/practice-3-authentication-system",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qv2wzys",
+                        "title": "Cloud Deployment",
+                        "subTopics": [
+                            {
+                                "_id": "43qv2wzzx",
+                                "title": "Practice 1 - Cloud Deployment",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzyc2p/cloud-deployment/practice-1-cloud-deployment",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qv2ykax",
+                                "title": "Practice 2 - Cloud Deployment",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzyffq/cloud-deployment/practice-2-cloud-deployment",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qv2zjt6",
+                                "title": "Practice 3 - Cloud Deployment",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzyksq/cloud-deployment/practice-3-cloud-deployment",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qv32b6g",
+                        "title": "Capstone Project",
+                        "subTopics": [
+                            {
+                                "_id": "43qv32b7t",
+                                "title": "Practice 1 - Capstone Project",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzytf9/capstone-project/practice-1-capstone-project",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qv33mqp",
+                                "title": "Practice 2 - Capstone Project",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzyv92/capstone-project/practice-2-capstone-project",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qv34cwx",
+                                "title": "Practice 3 - Capstone Project",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qbzft59/cu-full-stack-development-1/43quzyx66/capstone-project/practice-3-capstone-project",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isCourseGraded": true,
+        "grades": [
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga24pb",
+                "subtopicId": "43qgd47dz",
+                "name": "Practice 1 - HTML/CSS Fundamentals",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga24pb",
+                "subtopicId": "43qnng95j",
+                "name": "Practice 2 - HTML/CSS Fundamentals",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga24pb",
+                "subtopicId": "43qnngsnp",
+                "name": "Practice 3 - HTML/CSS Fundamentals",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga24pb",
+                "subtopicId": "43quz8nqg",
+                "name": "MCQ - HTML/CSS Fundamentals",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga5xu5",
+                "subtopicId": "43qgd5jwx",
+                "name": "Practice 1 - JavaScript",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga5xu5",
+                "subtopicId": "43qnnm255",
+                "name": "Practice 2 - JavaScript",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga5xu5",
+                "subtopicId": "43qnnmfz4",
+                "name": "Practice 3 - JavaScript",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga5xu5",
+                "subtopicId": "43quzaw2y",
+                "name": "MCQ - JavaScript",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga9y2j",
+                "subtopicId": "43qgd6txc",
+                "name": "Practice 1 - React",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga9y2j",
+                "subtopicId": "43qnp6487",
+                "name": "Practice 2 - React",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga9y2j",
+                "subtopicId": "43qnp6wjg",
+                "name": "Practice 3 - React",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qga9y2j",
+                "subtopicId": "43quzcdmw",
+                "name": "MCQ - React",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qrbjwqm",
+                "subtopicId": "43qrbnc36",
+                "name": "Practice 1 - Node.js",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qrbjwqm",
+                "subtopicId": "43qrbnjve",
+                "name": "Practice 2 - Node.js",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qrbjwqm",
+                "subtopicId": "43qrbnrfp",
+                "name": "Practice 3 - Node.js",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qf5a7d8",
+                "topicId": "43qrbjwqm",
+                "subtopicId": "43quzdvmn",
+                "name": "MCQ - Node.js",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qganxyf",
+                "subtopicId": "43qgda424",
+                "name": "Practice 1 - MongoDB",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qganxyf",
+                "subtopicId": "43qnqu6jt",
+                "name": "Practice 2 - MongoDB",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qganxyf",
+                "subtopicId": "43qnqug5h",
+                "name": "Practice 3 - MongoDB",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qganxyf",
+                "subtopicId": "43quzf8jg",
+                "name": "MCQ - MongoDB",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qgcpypu",
+                "subtopicId": "43qgdbcr7",
+                "name": "Practice 1 - Backend",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qgcpypu",
+                "subtopicId": "43qnqyfc9",
+                "name": "Practice 2 - Backend",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qgcpypu",
+                "subtopicId": "43qnqythj",
+                "name": "Practice 3 - Backend",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qgcpypu",
+                "subtopicId": "43quzgrmh",
+                "name": "MCQ - Backend",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qtyzr3u",
+                "subtopicId": "43qtz7jhx",
+                "name": "Practice 1 - Full Stack Integration",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qtyzr3u",
+                "subtopicId": "43qtz7unz",
+                "name": "Practice 2 - Full Stack Integration",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qtyzr3u",
+                "subtopicId": "43qtz87zw",
+                "name": "Practice 3 - Full Stack Integration",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qgajnhd",
+                "topicId": "43qtyzr3u",
+                "subtopicId": "43quzja8p",
+                "name": "MCQ - Full Stack Integration",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qjyyzaw",
+                "subtopicId": "43qntr8j8",
+                "name": "Practice 1 - Authentication Systems",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qjyyzaw",
+                "subtopicId": "43qntrwvt",
+                "name": "Practice 2 - Authentication Systems",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qjyyzaw",
+                "subtopicId": "43qnts7n8",
+                "name": "Practice 3 - Authentication Systems",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qjyyzaw",
+                "subtopicId": "43quzm6v5",
+                "name": "MCQ - Authentication Systems",
+                "topicType": "quiz",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv2wzys",
+                "subtopicId": "43qv2wzzx",
+                "name": "Practice 1 - Cloud Deployment",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv2wzys",
+                "subtopicId": "43qv2ykax",
+                "name": "Practice 2 - Cloud Deployment",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv2wzys",
+                "subtopicId": "43qv2zjt6",
+                "name": "Practice 3 - Cloud Deployment",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv32b6g",
+                "subtopicId": "43qv32b7t",
+                "name": "Practice 1 - Capstone Project",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv32b6g",
+                "subtopicId": "43qv33mqp",
+                "name": "Practice 2 - Capstone Project",
+                "topicType": "lab",
+                "gradePercentage": 2.63
+            },
+            {
+                "moduleId": "43qjypdzn",
+                "topicId": "43qv32b6g",
+                "subtopicId": "43qv34cwx",
+                "name": "Practice 3 - Capstone Project",
+                "topicType": "lab",
+                "gradePercentage": 2.69
+            }
+        ],
+        "gradeTotal": "100.00",
+        "courseLevel": "Intermediate",
+        "courseCategory": "webDevelopment",
+        "courseType": "lbl",
+        "createdBy": {
+            "_id": "3yxvzuftd"
+        },
+        "updatedBy": {
+            "_id": "3yxvzuftd"
+        },
+        "created": "2025-07-12T07:51:59.967Z",
+        "updated": "2025-07-18T07:40:00.614Z",
+        "permission": {
+            "organizations": [],
+            "branches": [
+                "43qxkvm6p",
+                "43qxeykxv",
+                "43qudeq72",
+                "43qmqdgyn"
+            ],
+            "batches": [],
+            "userGroups": [
+                "43qxb3c33"
+            ]
+        },
+        "transientData": {
+            "metrics": {
+                "orgsAssignedTo": 1,
+                "studentsAttempted": 1847
+            },
+            "assignmentRows": [
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT CSE - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT AIML - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE byteXL - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE - 2027",
+                    "batch": null
+                }
+            ]
+        }
+    },
+    {
+        "_id": "43qcgvxsk",
+        "title": "CU-Competitive Coding",
+        "description": "Master competitive coding with in-depth practice on data structures, algorithms, and problem-solving patterns to crack coding interviews and ace programming contests like Codeforces, LeetCode, and HackerRank.",
+        "whatYouLearn": "Learn to design, optimize, and implement efficient solutions using data structures and algorithms. Build problem-solving skills crucial for competitive programming and real-world applications.",
+        "whatYouLearnPoints": [
+            "Linked List Operations  ",
+            "Binary Tree",
+            "  Hashing Techniques  ",
+            "Tries: Prefix optimization ",
+            " Longest word with prefixes  ",
+            "Recursive and Iterative methods  ",
+            "Dynamic programming basics"
+        ],
+        "benefits": "Competitive coding enhances logical thinking and is highly valued in placements, with fresher salaries ranging from ₹4-10 LPA . Gain an edge in top MNCs, startups, and coding competitions.",
+        "designations": [
+            "Algorithm Developer",
+            "Competitive Programmer ",
+            "Data Structures Specialist"
+        ],
+        "hiringCompanies": [
+            "Google",
+            " Microsoft",
+            " Infosys ",
+            "TCS ",
+            "Flipkart ",
+            "Amazon",
+            " Zoho ",
+            "Paytm"
+        ],
+        "salaryMin": 400000,
+        "salaryAvg": 800000,
+        "salaryMax": 1000000,
+        "status": "published",
+        "sortOrder": 0,
+        "viewStyle": "v2",
+        "courseCombo": [],
+        "faqs": [
+            {
+                "question": "Do I need prior coding experience? ",
+                "answer": "Yes, basic programming knowledge is required."
+            },
+            {
+                "question": "What projects will I work on? ",
+                "answer": "Projects include implementing Tries and optimizing tree algorithms. "
+            },
+            {
+                "question": "Will this help with interviews? ",
+                "answer": "Absolutely, the course covers core topics frequently asked in technical interviews."
+            }
+        ],
+        "modules": [
+            {
+                "_id": "43qcgjdxq",
+                "title": "Unit 1 - Intro to Competitive Programming",
+                "topics": [
+                    {
+                        "_id": "43qcgje55",
+                        "title": "Arrays",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgjebs",
+                                "title": "Arrays",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4335gs29y/arrays/arrays",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmr9tua",
+                                "title": "MCQ - Arrays",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rtw5nxh/mcq-arrays",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qchgzug",
+                                "title": "Practice - Arrays",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43rtuac4v",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43rtvdyh2",
+                        "title": " Stacks, Queues",
+                        "subTopics": [
+                            {
+                                "_id": "43rtvdywm",
+                                "title": "Stacks",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334nvqmn/stacks/stacks",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rtvherx",
+                                "title": "Queues",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334nx7me/queues/queues",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rtvq8sf",
+                                "title": "MCQ - Stacks, Queue",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rtwfzqf/mcq-stacks-queue",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43ruspbas",
+                                "title": "Practice -  Stacks, Queues",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43rtuj9wu",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgqkjm",
+                        "title": "Linked List",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgqkqn",
+                                "title": "Linked Lists",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334p4xvh/linked-lists/linked-lists",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmre9k3",
+                                "title": "MCQ - Linked Lists",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qrrdfha/cu-cc-linked-lists-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qf3kjfb",
+                                "title": "Practice - Linked Lists",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qcnyf6m",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgraqt",
+                        "title": "Divide and Conquer",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgraw6",
+                                "title": "Divide and Conquer",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qsrbsee/cu-competitive-coding/43qsrcu4z/divide-and-conquer/divide-and-conquer",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmrfnwh",
+                                "title": "MCQ - Divide and Conquer",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qs286da/cu-cc-divide-and-conquer-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qf468z2",
+                                "title": "Practice - Divide and Conquer",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qcnzy8g",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qmrhm6f",
+                        "title": "Module Test",
+                        "subTopics": [
+                            {
+                                "_id": "43qmrhmes",
+                                "title": "Introduction to Competitive Programming",
+                                "topicType": "test",
+                                "data": "",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qcgsd3h",
+                "title": "Unit 2 - Advance Data Structures - 1",
+                "topics": [
+                    {
+                        "_id": "43qcgsd6j",
+                        "title": "Sorting and Searching",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgsd9f",
+                                "title": "Sorting",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334p79pa/sorting-algorithms/sorting-algorithms",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrpap7u",
+                                "title": "Searching",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334p8mzg/searching-algorithms/searching-algorithms",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmrz8mr",
+                                "title": "MCQ - Sorting and Searching",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qshthue/cu-cc-sorting-and-searching-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qms2a9b",
+                                "title": "Practice - Sorting and Searching",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qm95j74",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgtccs",
+                        "title": "Trees",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgtchy",
+                                "title": "Trees",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334p3bhn/trees/trees",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qms5tvr",
+                                "title": "MCQ - Trees",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qsndenb/cu-cc-trees-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qms5wa6",
+                                "title": "Practice - Trees",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qm98cva",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgu5uq",
+                        "title": "Dynamic Programming",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgu5y9",
+                                "title": "Dynamic Programming",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/43373wy59/dynamic-programming-dp/dynamic-programming-dp",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qms8feb",
+                                "title": "MCQ - Dynamic Programming",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qu6ubcs/cu-cc-dynamic-programming-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qms8hav",
+                                "title": "Practice - Dynamic Programming",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qm99afn",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qmsbsym",
+                        "title": "Module Test",
+                        "subTopics": [
+                            {
+                                "_id": "43qmsbt8v",
+                                "title": "Advanced Data Structures - 1 (Sorting & Searching, Trees, Dynamic Programming)",
+                                "topicType": "test",
+                                "data": "",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qcguahy",
+                "title": "Unit 3 - Advance Data Structures - 2",
+                "topics": [
+                    {
+                        "_id": "43qcguamg",
+                        "title": "Greedy",
+                        "subTopics": [
+                            {
+                                "_id": "43qcguaq3",
+                                "title": "Greedy Algorithms",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/43374fq3c/greedy-algorithms/greedy-algorithms",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsf6yt",
+                                "title": "MCQ - Greedy Algorithms",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qsma798/cu-cc-greedy-algorithm-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsfqh7",
+                                "title": "Practice - Greedy Algorithms",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qurdwh8",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgvdcj",
+                        "title": "Graphs",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgvdft",
+                                "title": "Graphs",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334nzeum/graphs/graphs",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsg78w",
+                                "title": "MCQ - Graphs",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43quuzpg4/cu-cc-graphs-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsg945",
+                                "title": "Practice - Graphs",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qurhqrx",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcgvsfs",
+                        "title": "Important Miscellaneous",
+                        "subTopics": [
+                            {
+                                "_id": "43qcgvsky",
+                                "title": "Important Miscellaneous Algorithms",
+                                "topicType": "",
+                                "data": "",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsh5b4",
+                                "title": "MCQ - Important Miscellaneous Algorithms",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43quvemxy/cu-cc-important-miscellaneous-algorithms-mcq",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmsh7tu",
+                                "title": "Practice - Important Miscellaneous Algorithms",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qurmqfz",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qmsj9af",
+                        "title": "Module Test",
+                        "subTopics": [
+                            {
+                                "_id": "43qmsj9jx",
+                                "title": "Advanced Data Structures -2 - (Important Miscellaneous Algorithms)",
+                                "topicType": "test",
+                                "data": "",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isCourseGraded": true,
+        "grades": [
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgje55",
+                "subtopicId": "43qmr9tua",
+                "name": "MCQ - Arrays, Stacks and Queues",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgje55",
+                "subtopicId": "43qchgzug",
+                "name": "Practice - Arrays, Stacks and Queues",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgqkjm",
+                "subtopicId": "43qmre9k3",
+                "name": "MCQ - Linked Lists",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgqkjm",
+                "subtopicId": "43qf3kjfb",
+                "name": "Practice - Linked Lists",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgraqt",
+                "subtopicId": "43qmrfnwh",
+                "name": "MCQ - Divide and Conquer",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qcgraqt",
+                "subtopicId": "43qf468z2",
+                "name": "Practice - Divide and Conquer",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgjdxq",
+                "topicId": "43qmrhm6f",
+                "subtopicId": "43qmrhmes",
+                "name": "Introduction to Competitive Programming",
+                "topicType": "test",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgsd6j",
+                "subtopicId": "43qmrz8mr",
+                "name": "MCQ - Sorting and Searching",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgsd6j",
+                "subtopicId": "43qms2a9b",
+                "name": "Practice - Sorting and Searching",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgtccs",
+                "subtopicId": "43qms5tvr",
+                "name": "MCQ - Trees",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgtccs",
+                "subtopicId": "43qms5wa6",
+                "name": "Practice - Trees",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgu5uq",
+                "subtopicId": "43qms8feb",
+                "name": "MCQ - Dynamic Programming",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qcgu5uq",
+                "subtopicId": "43qms8hav",
+                "name": "Practice - Dynamic Programming",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcgsd3h",
+                "topicId": "43qmsbsym",
+                "subtopicId": "43qmsbt8v",
+                "name": "Advanced Data Structures - 1 (Sorting & Searching, Trees, Dynamic Programming)",
+                "topicType": "test",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcguamg",
+                "subtopicId": "43qmsf6yt",
+                "name": "MCQ - Greedy Algorithms",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcguamg",
+                "subtopicId": "43qmsfqh7",
+                "name": "Practice - Greedy Algorithms",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcgvdcj",
+                "subtopicId": "43qmsg78w",
+                "name": "MCQ - Graphs",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcgvdcj",
+                "subtopicId": "43qmsg945",
+                "name": "Practice - Graphs",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcgvsfs",
+                "subtopicId": "43qmsh5b4",
+                "name": "MCQ - Important Miscellaneous Algorithms",
+                "topicType": "quiz",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qcgvsfs",
+                "subtopicId": "43qmsh7tu",
+                "name": "Practice - Important Miscellaneous Algorithms",
+                "topicType": "lab",
+                "gradePercentage": 4.76
+            },
+            {
+                "moduleId": "43qcguahy",
+                "topicId": "43qmsj9af",
+                "subtopicId": "43qmsj9jx",
+                "name": "Advanced Data Structures -2 - (Important Miscellaneous Algorithms)",
+                "topicType": "test",
+                "gradePercentage": 4.8
+            }
+        ],
+        "gradeTotal": "100.00",
+        "courseLevel": "Beginner",
+        "courseCategory": "basicProgramming",
+        "courseType": "",
+        "createdBy": {
+            "_id": "3yxvzuftd"
+        },
+        "updatedBy": {
+            "_id": "3yxvzuftd"
+        },
+        "created": "2025-07-11T11:11:29.302Z",
+        "updated": "2025-07-28T09:02:05.916Z",
+        "permission": {
+            "organizations": [],
+            "branches": [
+                "43qxkvm6p",
+                "43qxeykxv",
+                "43qudeq72",
+                "43qmqdgyn"
+            ],
+            "batches": [],
+            "userGroups": [
+                "43qxb3c33"
+            ]
+        },
+        "transientData": {
+            "metrics": {
+                "orgsAssignedTo": 1,
+                "studentsAttempted": 2091
+            },
+            "assignmentRows": [
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT CSE - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT AIML - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE byteXL - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE - 2027",
+                    "batch": null
+                }
+            ]
+        }
+    },
+    {
+        "_id": "43qcd2azf",
+        "title": "CU-ADBMS",
+        "description": "This course offers an advanced understanding of database management concepts beyond the basics. It covers topics like advanced SQL, query optimization, transaction management, distributed and NoSQL databases, data warehousing, big data, cloud databases, and database security. Emphasis is placed on hands-on learning through real-world lab experiments and projects.",
+        "whatYouLearn": "Gain industry-ready skills in both relational and NoSQL systems. Work hands-on with trending tools: MongoDB, Neo4j, Redis, Cassandra, Firebase, Cosmos DB. Strengthen database security practices for enterprise applications. Understand cloud database infrastructure and multi-region data consistency. Acquire practical experience through real-time applications and lab projects. Enhance employability in data engineering, backend development, and database administration roles.",
+        "whatYouLearnPoints": [
+            "Relational Databases  ",
+            "NoSQL Databases  ",
+            "MongoDB ",
+            " Neo4j  ",
+            "Redis ",
+            "Cassandra  ",
+            "Firebase ",
+            " Azure ",
+            "Cosmos DB  ",
+            "Database Security Practices  ",
+            "Enterprise Data Security "
+        ],
+        "benefits": "Mastering DBMS is essential for designing efficient, scalable, and secure databases, unlocking lucrative job opportunities in the tech industry. With starting salaries ranging from ₹4-6 LPA in service-based companies to ₹10-15 LPA in top product companies, this course equips you with the crucial skills needed for roles like Database Administrator, Data Analyst, and Database Developer.",
+        "designations": [
+            "Database Administrator (DBA) ",
+            " Data Engineer  Backend Developer ",
+            " Big Data Engineer  ",
+            "Cloud Database Specialist ",
+            " NoSQL Database Consultant  ",
+            "Application Developer (Data-centric)  ",
+            "Data Security Analyst"
+        ],
+        "hiringCompanies": [
+            "TCS (Tata Consultancy Services) ",
+            "Infosys ",
+            "Wipro ",
+            "Cognizant ",
+            "Accenture",
+            " IBM ",
+            "HCL Technologies ",
+            "Amazon ",
+            "Microsoft ",
+            "Oracle ",
+            "Google ",
+            "Flipkart ",
+            "Capgemini ",
+            "SAP",
+            " Deloitte"
+        ],
+        "salaryMin": 400000,
+        "salaryAvg": 800000,
+        "salaryMax": 1500000,
+        "status": "published",
+        "sortOrder": 0,
+        "viewStyle": "v2",
+        "courseCombo": [],
+        "faqs": [
+            {
+                "question": "Do I need any prior knowledge to take this course?",
+                "answer": "No prior knowledge of databases or programming is required. A basic understanding of computers and an eagerness to learn are enough to start the course."
+            },
+            {
+                "question": "How long does it take to complete this course? ",
+                "answer": "The duration typically ranges from a few weeks to a few months, depending on the course structure, learning pace, and whether it's self-paced or instructor-led."
+            },
+            {
+                "question": "What career opportunities can this course open up? ",
+                "answer": "After completing this course, you can pursue roles like Database Administrator, Data Analyst, SQL Developer, Database Developer, Data Engineer, and more in various industries."
+            },
+            {
+                "question": "Will this course help with both service-based and product-based company interviews? ",
+                "answer": "Yes, the course covers foundational and advanced DBMS concepts that are critical for interviews at both service-based and product-based companies, ensuring you are well-prepared for technical assessments."
+            }
+        ],
+        "modules": [
+            {
+                "_id": "43qccwr4b",
+                "title": "UNIT- 1",
+                "topics": [
+                    {
+                        "_id": "43qccwrad",
+                        "title": "SQL Overview",
+                        "subTopics": [
+                            {
+                                "_id": "43qccwrek",
+                                "title": "What is SQL?",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qceenyh/-what-is-sql-sql-commands/what-is-sql",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcg37yv",
+                                "title": "SQL Commands",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcg4gp6/-what-is-sql-sql-commands/sql-commands",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcgev9x",
+                                "title": "SQL Joins",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcgh4an/-what-is-sql-sql-commands/sql-joins",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qchudbu",
+                                "title": "Subqueries",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qchvbvd/-what-is-sql-sql-commands/subqueries",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcj22dp",
+                                "title": "Normalization",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qchzx92/-what-is-sql-sql-commands/normalization",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrdc263",
+                                "title": "MCQ - SQL Overview",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qnw2dbm/cu-adbms-experiment-1-mcq-s",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qmt2em6",
+                                "title": " Practice I - SQL Overview",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qnemdge",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qfyr6qr",
+                                "title": "Practice II - SQL Overview",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qfyddfy/sql-overview/practice",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qneuamv",
+                                "title": " Practice III - SQL Overview",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qnf5nk3",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcjbwmw",
+                        "title": "Advanced SQL",
+                        "subTopics": [
+                            {
+                                "_id": "43qcjbwpz",
+                                "title": "Views",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcjdwwz/sql-overview/-views",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcjnas6",
+                                "title": "Triggers",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qckywgz/advanced-sql/triggers",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcju58a",
+                                "title": "Stored Procedures",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcjua3v/sql-overview/stored-procedures",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qck737c",
+                                "title": "Functions",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qck7rrj/sql-overview/functions",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qckceqp",
+                                "title": "Cursors",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qcm6zhq/advanced-sql/cursors",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrjjkqn",
+                                "title": "MCQ - Advanced SQL",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qnw3pjt/cu-adbms-experiment-2-mcq-s",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnf92r7",
+                                "title": "Practice I - Advanced SQL",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qnfegfq/cu-adbms-1c",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnfg73s",
+                                "title": "Practice II - Advanced SQL",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qnfmqas/cu-adbms-1d",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnfg8me",
+                                "title": "Practice III - Advanced SQL",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qnfpm9m/cu-adbms-1e",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcmhf5b",
+                        "title": "Query Optimization",
+                        "subTopics": [
+                            {
+                                "_id": "43qcmhf7t",
+                                "title": "Execution Plans",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcmkj7g/query-optimization/execution-plans",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcmrwcv",
+                                "title": "Indexing",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcmsjen/query-optimization/indexing",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qcn7cf9",
+                                "title": "Performance Tuning",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcn7kpb/query-optimization/performance-tuning",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrjmxqv",
+                                "title": "MCQ - Query Optimization",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qnw5bpe/cu-adbms-experiment-3-mcq-s",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qnfteu8",
+                                "title": "Practice I - Query Optimization",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qng34p2/cu-adbms-1f",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qng3fcc",
+                                "title": "Practice II - Query Optimization",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qng6948/cu-adbms-1g",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qng3gve",
+                                "title": "Practice III - Query Optimization",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/test/43qngcn27/cu-adbms-1h",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qcnehvb",
+                        "title": "Transactions & Concurrency Control",
+                        "subTopics": [
+                            {
+                                "_id": "43qcnehxz",
+                                "title": "ACID Properties",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qcne77a/transactions-concurrency-control/acid-properties",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qeezhjm",
+                                "title": "Locking Mechanisms",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qeeztg3/transactions-concurrency-control/locking-mechanisms",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qef949h",
+                                "title": "Deadlocks",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qef8brt/transactions-concurrency-control/deadlocks",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qefjtkf",
+                                "title": "MVCC",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-adsa/43qefey2t/transactions-concurrency-control/mvcc",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qrjpawn",
+                                "title": "MCQ - Transactions & Concurrency Control",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qnw6hyj/cu-adbms-experiment-4-mcq-s",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qfyyf3r",
+                                "title": "Practice I - Transactions & Concurrency Control",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qfyz6y6/transactions-concurrency-control/practice-i",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qfzs424",
+                                "title": "Practice II - Transactions & Concurrency Control",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qfzswhh/transactions-concurrency-control/practice-ii",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43qg27ker",
+                                "title": "Practice III - Transactions & Concurrency Control",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43qg2dm2n/transactions-concurrency-control/practice-iii",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qefqe6p",
+                "title": "UNIT- 2",
+                "topics": [
+                    {
+                        "_id": "43qefqejh",
+                        "title": "Introduction to MongoDB",
+                        "subTopics": [
+                            {
+                                "_id": "43qefqeub",
+                                "title": "What is MongoDB?",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm2fvbh/basic-crud-operations-in-mongodb/what-is-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm2p4kv",
+                                "title": "Basic CRUD Operations in MongoDB",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm2qvxb/basic-crud-operations-in-mongodb/basic-crud-operations-in-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm2ymat",
+                                "title": "Aggregation and Grouping in MongoDB",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm2xfsu/basic-crud-operations-in-mongodb/aggregation-and-grouping-in-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm3c99j",
+                                "title": "Indexing, Schema Design & Performance",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm3cnd7/basic-crud-operations-in-mongodb/indexing-schema-design-performance",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqrtx3n",
+                                "title": "MCQ - Basic CRUD Operations in MongoDB",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rquk8ms/basic-crud-operations-in-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rmxzsr2",
+                                "title": "Practice - Basic CRUD Operations in MongoDB",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rmy8ptw/introduction-to-mongodb/practice-basic-crud-operations-in-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqw6ubg",
+                                "title": "MCQ - Aggregation and Grouping in MongoDB",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rqw667t/mcq-aggregation-and-grouping",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rmz349j",
+                                "title": "Practice - Aggregation and Grouping in MongoDB",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rmz4c57/introduction-to-mongodb/practice-aggregation-and-grouping-in-mongodb",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqwfnru",
+                                "title": "MCQ - Indexing, Schema Design & Performance",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rqwpejt/mcq-indexing-schema-design-performance",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rmzx8ms",
+                                "title": "Practice - Indexing, Schema Design & Performance",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rmzzpxa/introduction-to-mongodb/practice-indexing-schema-design-performance",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qugptbm",
+                "title": "UNIT- 3",
+                "topics": [
+                    {
+                        "_id": "43qugptdy",
+                        "title": "Introduction to SQLite3?",
+                        "subTopics": [
+                            {
+                                "_id": "43qugptg3",
+                                "title": "What is SQLite3?",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm4bagk/introduction-to-sqlite3/what-is-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm4usw7",
+                                "title": "Basic CRUD Operations in SQLite3",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm4vczw/introduction-to-sqlite3/basic-crud-operations-in-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm6vpy9",
+                                "title": "Relational Queries & Joins in SQLite3",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm6w9n9/introduction-to-sqlite3/relational-queries-joins-in-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rtxu7u7",
+                                "title": "MCQ - Basic CRUD Operations in SQLite3",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rtxz74p/mcq-basic-crud-operations-in-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqkj8z2",
+                                "title": "Practice - Basic CRUD Operations in SQLite3",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rqkgyzr/introduction-to-sqlite3/practice-basic-crud-operations-in-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rty7edy",
+                                "title": "MCQ - Relational Queries & Joins in SQLite3",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rtyeraf/mcq-relational-queries-joins-in-sqlite3",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqm4y2x",
+                                "title": "Practice - Relational Queries & Joins in SQLite3",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rqmmfgp/introduction-to-sqlite3/practice-relational-queries-joins-in-sqlite3",
+                                "time": 0
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43rm7j33f",
+                        "title": "PostgreSQL Functions, Constraints, Indexing",
+                        "subTopics": [
+                            {
+                                "_id": "43rm7j36s",
+                                "title": "What is PostgreSQL?",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm7fm7u/introduction-to-sqlite3/what-is-postgresql",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rm7qbhx",
+                                "title": "PostgreSQL Functions, Constraints, and Indexing",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rm7rqtm/introduction-to-sqlite3/postgresql-functions-constraints-and-indexing",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rtykq59",
+                                "title": "MCQ - PostgreSQL Functions, Constraints, Indexing",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43rtyw4wj/mcq-postgresql-functions-constraints-indexing",
+                                "time": 0
+                            },
+                            {
+                                "_id": "43rqmzsuf",
+                                "title": "Practice - PostgreSQL Functions, Constraints, Indexing",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qcedx3p/cu-advanced-dbms/43rqmzc65/introduction-to-sqlite3/practice-postgresql-functions-constraints-indexing",
+                                "time": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isCourseGraded": true,
+        "grades": [
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qccwrad",
+                "subtopicId": "43qrdc263",
+                "name": "MCQ - SQL Overview",
+                "topicType": "quiz",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qccwrad",
+                "subtopicId": "43qmt2em6",
+                "name": " Practice I - SQL Overview",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qccwrad",
+                "subtopicId": "43qneuamv",
+                "name": " Practice III - SQL Overview",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcjbwmw",
+                "subtopicId": "43qrjjkqn",
+                "name": "MCQ - Advanced SQL",
+                "topicType": "quiz",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcjbwmw",
+                "subtopicId": "43qnf92r7",
+                "name": "Practice I - Advanced SQL",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcjbwmw",
+                "subtopicId": "43qnfg73s",
+                "name": "Practice II - Advanced SQL",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcjbwmw",
+                "subtopicId": "43qnfg8me",
+                "name": "Practice III - Advanced SQL",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcmhf5b",
+                "subtopicId": "43qrjmxqv",
+                "name": "MCQ - Query Optimization",
+                "topicType": "quiz",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcmhf5b",
+                "subtopicId": "43qnfteu8",
+                "name": "Practice I - Query Optimization",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcmhf5b",
+                "subtopicId": "43qng3fcc",
+                "name": "Practice II - Query Optimization",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcmhf5b",
+                "subtopicId": "43qng3gve",
+                "name": "Practice III - Query Optimization",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qccwr4b",
+                "topicId": "43qcnehvb",
+                "subtopicId": "43qrjpawn",
+                "name": "MCQ - Transactions & Concurrency Control",
+                "topicType": "quiz",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qefqe6p",
+                "topicId": "43qefqejh",
+                "subtopicId": "43rmxzsr2",
+                "name": "Practice - Basic CRUD Operations in MongoDB",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qefqe6p",
+                "topicId": "43qefqejh",
+                "subtopicId": "43rmz349j",
+                "name": "Practice - Aggregation and Grouping in MongoDB",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qefqe6p",
+                "topicId": "43qefqejh",
+                "subtopicId": "43rmzx8ms",
+                "name": "Practice - Indexing, Schema Design & Performance",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qugptbm",
+                "topicId": "43qugptdy",
+                "subtopicId": "43rqkj8z2",
+                "name": "Practice - Basic CRUD Operations in SQLite3",
+                "topicType": "lab",
+                "gradePercentage": 5.88
+            },
+            {
+                "moduleId": "43qugptbm",
+                "topicId": "43qugptdy",
+                "subtopicId": "43rqm4y2x",
+                "name": "",
+                "topicType": "lab",
+                "gradePercentage": 5.92
+            }
+        ],
+        "gradeTotal": "100.00",
+        "courseLevel": "Beginner",
+        "courseCategory": "basicProgramming",
+        "courseType": "lbl",
+        "createdBy": {
+            "_id": "43gj7bz3b"
+        },
+        "updatedBy": {
+            "_id": "43gj7bz3b"
+        },
+        "created": "2025-07-11T10:12:05.166Z",
+        "updated": "2025-07-26T12:55:18.939Z",
+        "permission": {
+            "organizations": [],
+            "branches": [
+                "43qxkvm6p",
+                "43qxeykxv",
+                "43qudeq72",
+                "43qmqdgyn"
+            ],
+            "batches": [],
+            "userGroups": [
+                "43qxb3c33"
+            ]
+        },
+        "transientData": {
+            "metrics": {
+                "orgsAssignedTo": 1,
+                "studentsAttempted": 2200
+            },
+            "assignmentRows": [
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT CSE - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT AIML - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE byteXL - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE - 2027",
+                    "batch": null
+                }
+            ]
+        }
+    },
+    {
+        "_id": "43q9hdv79",
+        "title": "CU - Project based learning Java",
+        "description": "Master the foundations of Java programming and object-oriented principles. Gain practical skills in building applications, managing data, and developing robust solutions to kickstart your career in software development.",
+        "whatYouLearn": "Develop expertise in Java programming, Object-oriented concepts, Exception handling, Multithreading, and more, equipping you with the skills to build robust, scalable applications in various domains.",
+        "whatYouLearnPoints": [
+            "Java syntax and architecture",
+            "Basics of Java Programming ",
+            "Object-Oriented Programming",
+            " Multithreading concepts ",
+            "Collections Framework",
+            " File Handling ",
+            "Regular Expressions  JDBC"
+        ],
+        "benefits": "Java developers are in high demand, and freshers earn between ₹4 LPA and ₹15 LPA (Ref. Glassdoor, ScholarHat). Java is widely used in backend development, Android apps, and enterprise systems, making it a versatile and rewarding career choice.",
+        "designations": [
+            "Software Developer ",
+            "Associate Software Engineer ",
+            "Backend Developer",
+            "java Developer Automation Tester"
+        ],
+        "hiringCompanies": [
+            "Infosys ",
+            "Wipro",
+            "Tata Consultancy Services (TCS) ",
+            "Amazon ",
+            "Flipkart",
+            " Zoho ",
+            "Cognizant",
+            " HCL ",
+            "Oracle",
+            " Accenture ",
+            "Virtusa",
+            " Deloitte ",
+            "Barclays "
+        ],
+        "salaryMin": 400000,
+        "salaryAvg": 6000000,
+        "salaryMax": 1500000,
+        "status": "published",
+        "sortOrder": 0,
+        "viewStyle": "v2",
+        "courseCombo": [],
+        "faqs": [],
+        "modules": [
+            {
+                "_id": "43q9gvmpx",
+                "title": "UNIT-1",
+                "topics": [
+                    {
+                        "_id": "43q9gvmsb",
+                        "title": "Java Fundamentals",
+                        "subTopics": [
+                            {
+                                "_id": "43q9gvmv4",
+                                "title": "Introduction to Java",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmg7f8h/introduction-to-java/introduction-to-java",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43q9h8mdu",
+                                "title": "Difference between C++ and Java",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmgrprv/introduction-to-java/difference-between-c-and-java",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43q9h927t",
+                                "title": " Keywords, Tokens",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmhv2g4/introduction-to-java/keywords-and-token",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43q9h9qyd",
+                                "title": "Data types",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/3zg859sm2/java/434jhkhvu/variables-data-types/data-types",
+                                "time": 7
+                            },
+                            {
+                                "_id": "43q9ha6ze",
+                                "title": "Use of public, private, and protected.",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmj8nxa/introduction-to-java/use-of-public-private-and-protected",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qnq6tj7",
+                                "title": "MCQ - Java Fundamentals",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qs8ncre/chapter-1-java-fundamentals",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43q9hagss",
+                                "title": "Practice - Java Fundamentals",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43q9jq6by",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qg2hwz7",
+                        "title": "OOPS using Java",
+                        "subTopics": [
+                            {
+                                "_id": "43qg2hx2f",
+                                "title": "Class and method",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9s9mm/unit-1-chapter-2/class-and-object",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg2k6ja",
+                                "title": "Inheritance",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9v2a9/unit-1-chapter-2/inheritance",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg2m5rp",
+                                "title": "Abstraction",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9v4xb/unit-1-chapter-2/abstraction",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg2mhcd",
+                                "title": "Polymorphism",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb2gba/unit-1-chapter-2/polymorphism",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg2my56",
+                                "title": " Encapsulation",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb6d2k/unit-1-chapter-2/-encapsulation",
+                                "time": 4
+                            },
+                            {
+                                "_id": "43qg2pruu",
+                                "title": "Data privacy",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb6f62/unit-1-chapter-2/data-privacy",
+                                "time": 7
+                            },
+                            {
+                                "_id": "43qg2rfy3",
+                                "title": "MCQ - OOPS using Java",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qs96zgt/chapter-2-oops-using-java",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qg2q2r7",
+                                "title": "Practice - OOPS using Java",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qnpk2cr",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qg2uudr",
+                        "title": "Exception Handing",
+                        "subTopics": [
+                            {
+                                "_id": "43qg2uuf5",
+                                "title": "Introduction to Exceptions",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbhsuh/unit-1-chapter-3/introduction-to-exceptions",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg2wvv2",
+                                "title": " Difference between error and exception",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbrhpk/unit-1-chapter-3/-difference-between-error-and-exception",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg2xacv",
+                                "title": "try, catch and throw",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbtycp/unit-1-chapter-3/try-catch-and-throw",
+                                "time": 7
+                            },
+                            {
+                                "_id": "43qg33cec",
+                                "title": "Types of Exceptions",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbyqrr/unit-1-chapter-3/types-of-exceptions",
+                                "time": 8
+                            },
+                            {
+                                "_id": "43qg33qty",
+                                "title": "Exception handling in Java",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrc2n5y/unit-1-chapter-3/exception-handling",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg34ns8",
+                                "title": "MCQs - Exception Handling",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qsabjhy/chapter-3-exception-handling",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qg33yma",
+                                "title": "Practice - Exception Handling",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qnppcbk",
+                                "time": 50
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qg3c33u",
+                "title": "UNIT-2",
+                "topics": [
+                    {
+                        "_id": "43qg3c359",
+                        "title": "Collection Framework and Multithreading",
+                        "subTopics": [
+                            {
+                                "_id": "43qg3c36n",
+                                "title": "Use of Collections in Java",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qre7ee4/unit-2-chapter-4/use-of-collections",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3e22d",
+                                "title": "Array List, LinkedList",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrep4n8/unit-2-chapter-4/array-list-linkedlist",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg3eg7d",
+                                "title": "HashMap",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrevjau/unit-2-chapter-4/hashmap",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3f43b",
+                                "title": " TreeMap",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrfrx5v/unit-2-chapter-4/treemap",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3gd2x",
+                                "title": "Hashset",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrftd3a/unit-2-chapter-4/hashset",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3hmzz",
+                                "title": "Multithreading",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrfynj3/unit-2-chapter-4/multithreading",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg3kj4m",
+                                "title": "MCQs - Collection Framework and Multithreading",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qtssg8w/-chapter-4-collection-framework-and-multithreading",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qg3j922",
+                                "title": "Practice - Collection Framework and Multithreading",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/lab/43qnpuea9",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qg3marx",
+                        "title": "Wrapper Classes, I/O Streams and Lambda Expression",
+                        "subTopics": [
+                            {
+                                "_id": "43qg3mat7",
+                                "title": "Wrapper classes",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrsnbcj/unit-2-chapter-5/wrapper-classes",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg3pkn7",
+                                "title": "Autoboxing and Unboxing",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrsrhju/unit-2-chapter-5/autoboxing-and-unboxing",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3r6ct",
+                                "title": "Streams and its operations",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrst67t/unit-2-chapter-5/streams-and-its-operations",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg3qnpu",
+                                "title": "Byte stream and Character stream",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrswjky/unit-2-chapter-5/byte-stream-and-character-stream",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg4x2rd",
+                                "title": "Object serialization and cloning",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrt2d6w/unit-2-chapter-5/object-serialization-and-cloning",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg4yxez",
+                                "title": "Lambda syntax",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrt2fam/unit-2-chapter-5/lambda-syntax",
+                                "time": 4
+                            },
+                            {
+                                "_id": "43qg4zkm9",
+                                "title": "Functional interfaces",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrt9vvg/unit-2-chapter-5/functional-interfaces",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg52gt4",
+                                "title": "Method reference",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrta5bp/unit-2-chapter-5/method-reference",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg4pwrx",
+                                "title": "MCQs - Wrapper Classes, I/O Streams and Lambda Expression",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qtt7kz5/-chapter-5-wrapper-classes-i-o-streams-and-lambda-expression",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qg4caca",
+                                "title": "Practice 1- Wrapper Classes, I/O Streams and Lambda Expression",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjr5uzt/experiment-2/experiment-2-2",
+                                "time": 50
+                            },
+                            {
+                                "_id": "43qg55xv8",
+                                "title": "Practice 2- Wrapper Classes, I/O Streams and Lambda Expression",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjrg3cv/experiment-2/experiment-2-3",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qg56ud3",
+                        "title": "JDBC",
+                        "subTopics": [
+                            {
+                                "_id": "43qg56uem",
+                                "title": "Database connectivity",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qsax6zf/unit-2-chapter-6/database-connectivity",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg58gge",
+                                "title": "Types of Drivers for connection",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qsaxa7v/unit-2-chapter-6/types-of-drivers-for-connection",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qg58z6g",
+                                "title": "MVC Model for project development, Sequence, Dual table, Date type management in Java.",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qsaxezk/unit-2-chapter-6/mvc-model-for-project-development-sequence-dual-table-date-type-management",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg59txr",
+                                "title": "CRUD operations using Database",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtrkmyv/unit-2-chapter-6/crud-operations-using-database",
+                                "time": 7
+                            },
+                            {
+                                "_id": "43qg5a8hd",
+                                "title": "Various types of drivers for Java Database Connectivity, ",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtrtxw9/unit-2-chapter-6/various-types-of-drivers-for-java-database-connectivity",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qg5fdjk",
+                                "title": "MCQs - JDBC",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qtte7m6/-chapter-6-jdbc",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qg5bwf2",
+                                "title": "Practice - JDBC",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjrg6ua/experiment-2/experiment-2-4",
+                                "time": 50
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "43qg56pp9",
+                "title": "UNIT-3",
+                "topics": [
+                    {
+                        "_id": "43qg56pqp",
+                        "title": "Servlets and JSP",
+                        "subTopics": [
+                            {
+                                "_id": "43qqrwgdf",
+                                "title": "Servlet Fundamentals",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtumjft/unit-3-chapter-7-servlets-and-jsp/servlet-fundamentals",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qtuy3xb",
+                                "title": "Advanced Servlet Concepts",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtunqbg/unit-3-chapter-7-servlets-and-jsp/advanced-servlet-concepts",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qtuy9mv",
+                                "title": "JSP (JavaServer Pages) Basics",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtunsah/unit-3-chapter-7-servlets-and-jsp/jsp-javaserver-pages-basics",
+                                "time": 6
+                            },
+                            {
+                                "_id": "43qqrwjx8",
+                                "title": "MCQ - Servelets and JSP",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qtzexs9/-chapter-7-servlets-and-jsp",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qqrwn57",
+                                "title": "Practice - Servelets and JSP",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjr66xj/experiment-3/experiment-3-1",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qqrwdmw",
+                        "title": "Spring Basics and Hibernate",
+                        "subTopics": [
+                            {
+                                "_id": "43qqrwdzh",
+                                "title": " Spring Framework Basics",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtvxmhq/unit-3-chapter-8-spring-basics-and-hibernate/spring-framework-basics",
+                                "time": 5
+                            },
+                            {
+                                "_id": "43qtvvvsk",
+                                "title": "Hibernate Core Concepts",
+                                "topicType": "readingMaterial",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qtvxpbv/unit-3-chapter-8-spring-basics-and-hibernate/hibernate-core-concepts",
+                                "time": 7
+                            },
+                            {
+                                "_id": "43qqrznzy",
+                                "title": "MCQ - Spring Basics and Hibernate",
+                                "topicType": "quiz",
+                                "data": "https://bytexl.app/test/43qtzw3fn/-chapter-8-spring-basics-and-hibernate",
+                                "time": 10
+                            },
+                            {
+                                "_id": "43qqrzrkd",
+                                "title": "Practice - Spring Basics and Hibernate",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjr6acp/experiment-3/experiment-3-2",
+                                "time": 50
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "43qqs4a4r",
+                        "title": "Mini Project",
+                        "subTopics": [
+                            {
+                                "_id": "43qqs4acz",
+                                "title": "Mini Project",
+                                "topicType": "lab",
+                                "data": "https://bytexl.app/content/43qjqywvh/pblj/43qjs6r35/experiment-3/mini-project",
+                                "time": 60
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isCourseGraded": true,
+        "grades": [
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43q9gvmsb",
+                "subtopicId": "43qnq6tj7",
+                "name": "MCQ - Java Fundamentals",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43q9gvmsb",
+                "subtopicId": "43q9hagss",
+                "name": "Practice - Java Fundamentals",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43qg2hwz7",
+                "subtopicId": "43qg2rfy3",
+                "name": "MCQ - OOPS using Java",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43qg2hwz7",
+                "subtopicId": "43qg2q2r7",
+                "name": "Practice - OOPS using Java",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43qg2uudr",
+                "subtopicId": "43qg34ns8",
+                "name": "MCQs - Exception Handling",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43q9gvmpx",
+                "topicId": "43qg2uudr",
+                "subtopicId": "43qg33yma",
+                "name": "Practice - Exception Handling",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg3c359",
+                "subtopicId": "43qg3kj4m",
+                "name": "MCQs - Collection Framework and Multithreading",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg3c359",
+                "subtopicId": "43qg3j922",
+                "name": "Practice - Collection Framework and Multithreading",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg3marx",
+                "subtopicId": "43qg4caca",
+                "name": "Experiment 2.2",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg3marx",
+                "subtopicId": "43qg4pwrx",
+                "name": "MCQs - Wrapper Classes, I/O Streams and Lambda Expression",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg3marx",
+                "subtopicId": "43qg55xv8",
+                "name": "Practice - Wrapper Classes, I/O Streams and Lambda Expression",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg56ud3",
+                "subtopicId": "43qg5fdjk",
+                "name": "MCQs - JDBC",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg3c33u",
+                "topicId": "43qg56ud3",
+                "subtopicId": "43qg5bwf2",
+                "name": "Practice - JDBC",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg56pp9",
+                "topicId": "43qg56pqp",
+                "subtopicId": "43qqrwjx8",
+                "name": "MCQ - Servelets and JSP",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg56pp9",
+                "topicId": "43qg56pqp",
+                "subtopicId": "43qqrwn57",
+                "name": "Practice - Servelets and JSP",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg56pp9",
+                "topicId": "43qqrwdmw",
+                "subtopicId": "43qqrznzy",
+                "name": "MCQ - Spring Basics and Hibernate",
+                "topicType": "quiz",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg56pp9",
+                "topicId": "43qqrwdmw",
+                "subtopicId": "43qqrzrkd",
+                "name": "Practice - Spring Basics and Hibernate",
+                "topicType": "lab",
+                "gradePercentage": 5.56
+            },
+            {
+                "moduleId": "43qg56pp9",
+                "topicId": "43qqs4a4r",
+                "subtopicId": "43qqs4acz",
+                "name": "Mini Project",
+                "topicType": "lab",
+                "gradePercentage": 5.48
+            }
+        ],
+        "gradeTotal": "100.00",
+        "courseLevel": "Beginner",
+        "courseCategory": "advancedProgramming",
+        "courseType": "lbl",
+        "createdBy": {
+            "_id": "3yxvzuftd"
+        },
+        "updatedBy": {
+            "_id": "3yxvzuftd"
+        },
+        "created": "2025-07-10T11:27:56.015Z",
+        "updated": "2025-08-05T08:32:12.303Z",
+        "permission": {
+            "organizations": [],
+            "branches": [
+                "43qxkvm6p",
+                "43qxeykxv",
+                "43qudeq72",
+                "43qmqdgyn"
+            ],
+            "batches": [],
+            "userGroups": [
+                "43qxb3c33"
+            ]
+        },
+        "transientData": {
+            "metrics": {
+                "orgsAssignedTo": 1,
+                "studentsAttempted": 1931
+            },
+            "assignmentRows": [
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT CSE - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU AIT AIML - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE byteXL - 2027",
+                    "batch": null
+                },
+                {
+                    "organization": "Chandigarh University",
+                    "branch": "CU CSE - 2027",
+                    "batch": null
+                }
+            ]
+        }
+    }
+]

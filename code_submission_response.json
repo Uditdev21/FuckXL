@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "data": {
+        "_id": "43qmss6c3_43qqzzsz4_43qejdgev",
+        "created": "2025-08-05T04:05:04.969Z",
+        "question": {
+            "_id": "43qqzzsz4"
+        },
+        "test": {
+            "_id": "43qmss6c3"
+        },
+        "timeSpent": 650,
+        "updated": "2025-08-05T18:09:01.720Z",
+        "user": {
+            "_id": "43qejdgev"
+        },
+        "solution": {
+            "codingSolution": {
+                "language": "sql",
+                "code": "test code run"
+            }
+        },
+        "submissionsCount": 4,
+        "testCaseVsResult": {
+            "43qqzqz9u": false
+        },
+        "userEnvData": null
+    }
+}

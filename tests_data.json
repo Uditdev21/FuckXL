@@ -1,0 +1,382 @@
+{
+    "status": "success",
+    "data": {
+        "_id": "43qmss6c3",
+        "title": "CU-ADBMS 1A Lab",
+        "description": "",
+        "tags": [
+            "CU"
+        ],
+        "status": "published",
+        "startDate": "",
+        "endDate": "",
+        "timeLimit": 0,
+        "showInstructionsOnStart": false,
+        "shuffleQuestions": false,
+        "captureUserImages": false,
+        "recordSession": false,
+        "forceFullScreen": false,
+        "captureTabSwitches": false,
+        "closeAfterNumberOfTabSwitches": 0,
+        "showReportAfterTest": false,
+        "sendReportViaEmail": false,
+        "sendEmailReportAt": "",
+        "questions": [
+            {
+                "_id": "43qqzzsz4",
+                "title": "Create Author and Book Tables using DDL Commands",
+                "description": "You are tasked with designing a basic book management system. Create two tables — **Authors** and **Books** — to represent a one-to-many relationship (one author can write multiple books). Use proper **primary and foreign key constraints** while designing the schema.\r\n\r\n#### Input Format:\r\n Table **Authors** with columns:\r\n* **author_id**(INT, Primary Key)\r\n* **name** (VARCHAR(50))\r\n* **country** (VARCHAR(50))\r\n\r\nTable **Books** with columns:\r\n* **book_id** (INT, Primary Key)\r\n* **title** (VARCHAR(100))\r\n* **author_id** (INT, Foreign Key referencing Authors)\r\n\r\n#### Output Format:\r\n* Authors and Books tables created. Print description of the table.\r\n\r\n#### Constraints:\r\n* The **author_id** in **Books** must exist in the **Authors** table.\r\n* Use appropriate data types and constraints.\r\n* **name** and **country** should allow up to 50 characters.\r\n\r\n\r\n\r\n**Sample Input:**\r\nWrite query to create tables for Authors and Books\r\n\r\n**Sample Output:**\r\n\r\n`authors` Table:\r\n\r\n| Field      | Type        | Null | Key | Default | Extra |\r\n| ---------- | ----------- | ---- | --- | ------- | ----- |\r\n| author\\_id | int         | NO   | PRI | NULL    |       |\r\n| name       | varchar(50) | YES  |     | NULL    |       |\r\n| country    | varchar(50) | YES  |     | NULL    |       |\r\n\r\n`books` Table:\r\n\r\n| Field      | Type         | Null | Key | Default | Extra |\r\n| ---------- | ------------ | ---- | --- | ------- | ----- |\r\n| book\\_id   | int          | NO   | PRI | NULL    |       |\r\n| title      | varchar(100) | YES  |     | NULL    |       |\r\n| author\\_id | int          | YES  | MUL | NULL    |       |",
+                "explanation": "",
+                "type": "coding",
+                "difficulty": "easy",
+                "bloomTaxonomy": "",
+                "tags": [
+                    "SQL",
+                    "DDL",
+                    "Relational Database",
+                    "Schema Design"
+                ],
+                "subjects": [
+                    "adbms"
+                ],
+                "topics": [],
+                "subTopics": [],
+                "companies": [
+                    "TCS",
+                    "Infosys",
+                    "Wipro",
+                    "Cognizant"
+                ],
+                "status": "published",
+                "submit": null,
+                "codeOptions": {
+                    "supportedLanguages": [
+                        "sql"
+                    ],
+                    "testCases": [
+                        {
+                            "id": "43qqzqz9u",
+                            "input": "",
+                            "output": "",
+                            "difficulty": "easy",
+                            "visibility": "private"
+                        }
+                    ],
+                    "preloads": {
+                        "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+                        "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+                        "java": "import java.util.Scanner;\n\nclass Input {\n    public static void main(String[] args) {\n    \tScanner s = new Scanner(System.in);\n    \tString input = s.next(); // nextInt()/ nextFloat()\n    \tSystem.out.println(\"input: \" + input);\n    }\n}",
+                        "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+                        "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+                        "sql": "-- Write your Query here\n"
+                    },
+                    "codeSolutions": {
+                        "sql": "-- Create Authors Table\nCREATE TABLE Authors (\n    author_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    country VARCHAR(50)\n);\n\n-- Create Books Table\nCREATE TABLE Books (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(100),\n    author_id INT,\n    FOREIGN KEY (author_id) REFERENCES Authors(author_id)\n);\n\ndesc Authors;\ndesc Books;\n"
+                    },
+                    "hints": [],
+                    "ignoreCase": true,
+                    "setupFiles": []
+                },
+                "multipleChoiceOptions": {
+                    "selectionType": "single",
+                    "options": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "answer": []
+                },
+                "fillInTheBlankOptions": {
+                    "answer": ""
+                },
+                "descriptiveOptions": {
+                    "answerTags": []
+                },
+                "partialScore": true,
+                "updatedBy": {
+                    "_id": "43gj7bz3b",
+                    "name": "Ashish Uttamrao Gadpayle"
+                },
+                "createdBy": {
+                    "_id": "43375ff8t",
+                    "name": "Kondakavuri Pavani"
+                },
+                "hash": "734881e4416b6022f1ffd689e9794261d8900d7b",
+                "created": "2025-07-15T06:48:20.860Z",
+                "updated": "2025-07-19T12:00:58.497Z"
+            },
+            {
+                "_id": "43qr3deu5",
+                "title": "Insert Sample Records into Author and Book Tables",
+                "description": "After creating the Authors and Books tables, your next task is to insert sample records. Insert **at least 3 authors and 3 books,** ensuring books reference valid authors using the foreign key.\r\n\r\n#### Input Format:\r\n* Pre-existing Authors and Books table structures from Problem 1.\r\n\r\n#### Output Format:\r\n\r\n`Authors` Table:\r\n\r\n| author\\_id | name    | country |\r\n| ---------- | ------- | ------- |\r\n| 1          | Ashish  | India   |\r\n| 2          | Smaran  | USA     |\r\n| 3          | Vaibhav | UK      |\r\n\r\n`Books` Table:\r\n\r\n| book\\_id | title               | author\\_id |\r\n| -------- | ------------------- | ---------- |\r\n| 101      | Data Science Basics | 1          |\r\n| 102      | AI in Education     | 2          |\r\n| 103      | SQL Simplified      | 1          |\r\n\r\n#### Constraints:\r\n* Insert meaningful names and countries (e.g., Ashish, Smaran, Vaibhav).\r\n* Insert book titles that are easy to associate with those authors.\r\n* Use valid foreign keys.\r\n\r\n**Sample Input:**\r\nInput tables Authors and Books\r\n\r\n**Sample Output:**\r\n\r\n**Authors Table**:\r\n\r\n| author\\_id | name    | country |\r\n| ---------- | ------- | ------- |\r\n| 1          | Ashish  | India   |\r\n| 2          | Smaran  | USA     |\r\n| 3          | Vaibhav | UK      |\r\n\r\n**Books Table**\r\n\r\n| book\\_id | title               | author\\_id |\r\n| -------- | ------------------- | ---------- |\r\n| 101      | Data Science Basics | 1          |\r\n| 102      | AI in Education     | 2          |\r\n| 103      | SQL Simplified      | 1          |",
+                "explanation": "",
+                "type": "coding",
+                "difficulty": "easy",
+                "bloomTaxonomy": "",
+                "tags": [
+                    "SQL",
+                    "DML",
+                    "Relational Database",
+                    "Insert Query"
+                ],
+                "subjects": [
+                    "adbms"
+                ],
+                "topics": [],
+                "subTopics": [],
+                "companies": [
+                    "TCS",
+                    "Infosys",
+                    "Wipro",
+                    "Capgemini"
+                ],
+                "status": "published",
+                "submit": null,
+                "codeOptions": {
+                    "supportedLanguages": [
+                        "sql"
+                    ],
+                    "testCases": [
+                        {
+                            "id": "43qr398je",
+                            "input": "",
+                            "output": "",
+                            "difficulty": "easy",
+                            "visibility": "private"
+                        }
+                    ],
+                    "preloads": {
+                        "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+                        "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+                        "java": "import java.util.Scanner;\n\nclass Input {\n    public static void main(String[] args) {\n    \tScanner s = new Scanner(System.in);\n    \tString input = s.next(); // nextInt()/ nextFloat()\n    \tSystem.out.println(\"input: \" + input);\n    }\n}",
+                        "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+                        "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+                        "sql": "-- Write your Query here"
+                    },
+                    "codeSolutions": {
+                        "sql": "-- student will do\n-- Insert sample data into Authors\nINSERT INTO Authors (author_id, name, country) VALUES\n(1, 'Ashish', 'India'),\n(2, 'Smaran', 'USA'),\n(3, 'Vaibhav', 'UK');\n\n-- Insert sample data into Books\nINSERT INTO Books (book_id, title, author_id) VALUES\n(101, 'Data Science Basics', 1),\n(102, 'AI in Education', 2),\n(103, 'SQL Simplified', 1);\n\nselect * from authors;\nselect * from books;"
+                    },
+                    "hints": [],
+                    "ignoreCase": true,
+                    "setupFiles": {
+                        "init.sql": "-- Create Authors Table\n-- init.sql\nCREATE TABLE Authors (\n    author_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    country VARCHAR(50)\n);\n\n-- Create Books Table\nCREATE TABLE Books (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(100),\n    author_id INT,\n    FOREIGN KEY (author_id) REFERENCES Authors(author_id)\n);\n"
+                    }
+                },
+                "multipleChoiceOptions": {
+                    "selectionType": "single",
+                    "options": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "answer": []
+                },
+                "fillInTheBlankOptions": {
+                    "answer": ""
+                },
+                "descriptiveOptions": {
+                    "answerTags": []
+                },
+                "partialScore": true,
+                "updatedBy": {
+                    "_id": "43gj7bz3b",
+                    "name": "Ashish Uttamrao Gadpayle"
+                },
+                "createdBy": {
+                    "_id": "43375ff8t",
+                    "name": "Kondakavuri Pavani"
+                },
+                "hash": "f2c4bfdcc05fc48d3659de4a30efb837acceab0d",
+                "created": "2025-07-15T07:09:31.148Z",
+                "updated": "2025-07-19T13:57:02.345Z"
+            },
+            {
+                "_id": "43qr49wc9",
+                "title": "Retrieve Book Titles Along with Author Information Using INNER JOIN",
+                "description": "Given two tables, Authors and Books, retrieve the titles of all books along with their **author's name and country.** This involves creating tables, inserting data, and using an INNER JOIN to combine records based on author_id.\r\n\r\n#### Input Format:\r\n* Pre-existing Authors and Books table structures from Problem 1.\r\n\r\nTable **Authors** with columns:\r\n  * **author_id** (INT, Primary Key)\r\n  * **name** (VARCHAR(50))\r\n  * **country** (VARCHAR(50))\r\n\r\nTable **Books** with columns:\r\n* **book_id** (INT, Primary Key)\r\n* **title** (VARCHAR(100))\r\n* **author_id** (INT, Foreign Key referencing Authors)\r\n\r\n#### Output Format:\r\n* A list of books with their **title, name** of the author, and **country** of the author.\r\n\r\n#### Constraints:\r\n* Each book must be linked to one valid author.\r\n* Each author can be linked to one or more books.\r\n* No NULLs are allowed in the author_id field of the Books table.\r\n* Use the same data as shown in the sample table.\r\n\r\n**Sample Input:**\r\n\r\n`Authors` Table\r\n\r\n| author\\_id | name    | country |\r\n| ---------- | ------- | ------- |\r\n| 1          | Ashish  | India   |\r\n| 2          | Smaran  | USA     |\r\n| 3          | Vaibhav | UK      |\r\n\r\n`Books` Table\r\n\r\n| book\\_id | title               | author\\_id |\r\n| -------- | ------------------- | ---------- |\r\n| 101      | Data Science Basics | 1          |\r\n| 102      | AI in Education     | 2          |\r\n| 103      | SQL Simplified      | 1          |\r\n\r\n\r\n**Sample Output**\r\n\r\n| title               | name   | country |\r\n| ------------------- | ------ | ------- |\r\n| Data Science Basics | Ashish | India   |\r\n| AI in Education     | Smaran | USA     |\r\n| SQL Simplified      | Ashish | India   |\r\n\r\n**Explanation:**\r\n* The INNER JOIN links each book's author_id to the Authors table.\r\n* The result shows the book title along with the author’s name and country.\r\n* For example, \"SQL Simplified\" is written by Ashish from India.",
+                "explanation": "",
+                "type": "coding",
+                "difficulty": "easy",
+                "bloomTaxonomy": "",
+                "tags": [
+                    "SQL",
+                    "INNER JOIN",
+                    "Relational Database",
+                    "Querying"
+                ],
+                "subjects": [
+                    "adbms"
+                ],
+                "topics": [],
+                "subTopics": [],
+                "companies": [
+                    "TCS",
+                    "Infosys",
+                    "Cognizant",
+                    "Wipro"
+                ],
+                "status": "published",
+                "submit": null,
+                "codeOptions": {
+                    "supportedLanguages": [
+                        "sql"
+                    ],
+                    "testCases": [
+                        {
+                            "id": "43qr44x8k",
+                            "input": "",
+                            "output": "",
+                            "difficulty": "easy",
+                            "visibility": "private"
+                        }
+                    ],
+                    "preloads": {
+                        "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+                        "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+                        "java": "import java.util.Scanner;\n\nclass Input {\n    public static void main(String[] args) {\n    \tScanner s = new Scanner(System.in);\n    \tString input = s.next(); // nextInt()/ nextFloat()\n    \tSystem.out.println(\"input: \" + input);\n    }\n}",
+                        "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+                        "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+                        "sql": "-- Write your Query here\n"
+                    },
+                    "codeSolutions": {
+                        "sql": "-- student will do\n\n-- INNER JOIN query to retrieve book titles with author info\nSELECT B.title, A.name, A.country\nFROM Books B\nINNER JOIN Authors A ON B.author_id = A.author_id;"
+                    },
+                    "hints": [],
+                    "ignoreCase": true,
+                    "setupFiles": {
+                        "init.sql": "-- Create Authors Table\n-- init.sql\nCREATE TABLE Authors (\n    author_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    country VARCHAR(50)\n);\n\n-- Create Books Table\nCREATE TABLE Books (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(100),\n    author_id INT,\n    FOREIGN KEY (author_id) REFERENCES Authors(author_id)\n);\n\n-- Insert sample data into Authors\nINSERT INTO Authors (author_id, name, country) VALUES\n(1, 'Ashish', 'India'),\n(2, 'Smaran', 'USA'),\n(3, 'Vaibhav', 'UK');\n\n-- Insert sample data into Books\nINSERT INTO Books (book_id, title, author_id) VALUES\n(101, 'Data Science Basics', 1),\n(102, 'AI in Education', 2),\n(103, 'SQL Simplified', 1);"
+                    }
+                },
+                "multipleChoiceOptions": {
+                    "selectionType": "single",
+                    "options": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "answer": []
+                },
+                "fillInTheBlankOptions": {
+                    "answer": ""
+                },
+                "descriptiveOptions": {
+                    "answerTags": []
+                },
+                "partialScore": true,
+                "updatedBy": {
+                    "_id": "43gj7bz3b",
+                    "name": "Ashish Uttamrao Gadpayle"
+                },
+                "createdBy": {
+                    "_id": "43375ff8t",
+                    "name": "Kondakavuri Pavani"
+                },
+                "hash": "2b9e4d1bceec2748205f21afb2c0235548b7566d",
+                "created": "2025-07-15T07:23:09.459Z",
+                "updated": "2025-07-19T13:57:58.256Z"
+            }
+        ],
+        "labMode": true,
+        "difficulty": "easy",
+        "subjects": [
+            "CU-ADBMS"
+        ],
+        "updatedBy": {
+            "_id": "3yxvzufte",
+            "name": "Rohith Kokkirala"
+        },
+        "createdBy": {
+            "_id": "43gj7bz3b",
+            "name": "Ashish Uttamrao Gadpayle"
+        },
+        "created": "2025-07-14T05:05:21.342Z",
+        "updated": "2025-07-17T13:48:24.639Z",
+        "permission": {
+            "organizations": [],
+            "branches": [
+                "43qxkvm6p",
+                "43qxeykxv",
+                "43qudeq72",
+                "43qmqdgyn"
+            ],
+            "batches": [],
+            "userGroups": [
+                "43qxb3c33"
+            ]
+        },
+        "questionProgress": [
+            {
+                "_id": "43qmss6c3_43qqzzsz4_43qejdgev",
+                "created": "2025-08-05T04:05:04.969Z",
+                "question": {
+                    "_id": "43qqzzsz4"
+                },
+                "test": {
+                    "_id": "43qmss6c3"
+                },
+                "timeSpent": 650,
+                "updated": "2025-08-05T18:08:59.671Z",
+                "user": {
+                    "_id": "43qejdgev"
+                },
+                "solution": {
+                    "codingSolution": {
+                        "language": "sql",
+                        "code": "INSERT INTO Authors (author_id, name, country) VALUES\n(1, 'Ashish', 'India'),\n(2, 'Smaran', 'USA'),\n(3, 'Vaibhav', 'UK');\n\n-- Insert sample data into Books\nINSERT INTO Books (book_id, title, author_id) VALUES\n(101, 'Data Science Basics', 1),\n(102, 'AI in Education', 2),\n(103, 'SQL Simplified', 1);\n\nselect * from authors;\nselect * from books;"
+                    }
+                },
+                "submissionsCount": 3,
+                "testCaseVsResult": {
+                    "43qqzqz9u": false
+                },
+                "userEnvData": null
+            },
+            {
+                "_id": "43qmss6c3_43qr3deu5_43qejdgev",
+                "created": "2025-08-05T17:52:20.381Z",
+                "question": {
+                    "_id": "43qr3deu5"
+                },
+                "test": {
+                    "_id": "43qmss6c3"
+                },
+                "timeSpent": 6,
+                "updated": "2025-08-05T17:52:20.381Z",
+                "user": {
+                    "_id": "43qejdgev"
+                }
+            },
+            {
+                "_id": "43qmss6c3_43qr49wc9_43qejdgev",
+                "created": "2025-08-05T17:52:30.393Z",
+                "question": {
+                    "_id": "43qr49wc9"
+                },
+                "test": {
+                    "_id": "43qmss6c3"
+                },
+                "timeSpent": 18,
+                "updated": "2025-08-05T17:52:39.214Z",
+                "user": {
+                    "_id": "43qejdgev"
+                }
+            }
+        ],
+        "testProgress": {
+            "_id": "43qmss6c3_43qejdgev",
+            "created": "2025-07-29T04:54:09.108Z",
+            "lastOpened": "2025-08-05T18:09:00.763Z",
+            "problemIdsOrder": null,
+            "test": {
+                "_id": "43qmss6c3"
+            },
+            "user": {
+                "_id": "43qejdgev"
+            },
+            "updated": "2025-08-05T18:08:00.999Z"
+        }
+    }
+}
