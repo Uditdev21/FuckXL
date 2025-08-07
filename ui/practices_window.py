@@ -1,6 +1,6 @@
 import tkinter as tk
 import re
-from api_client import fetch_lab_data, fetch_test_questions
+from .api_client import fetch_lab_data, fetch_test_questions
 
 def show_practices_window(module, jwt_token, show_code_editor_window):
     practices_win = tk.Toplevel()

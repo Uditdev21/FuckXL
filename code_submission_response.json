@@ -1,33 +1,34 @@
 {
   "status": "success",
   "data": {
-    "_id": "43qnmjrus_43qcs5e2k_43qejdgev",
-    "created": "2025-08-07T14:27:07.421Z",
+    "_id": "43rtqpe5j_43rtjgfaa_43qejdgev",
+    "created": "2025-08-05T07:39:59.327Z",
     "question": {
-      "_id": "43qcs5e2k"
+      "_id": "43rtjgfaa"
+    },
+    "test": {
+      "_id": "43rtqpe5j"
+    },
+    "timeSpent": 690,
+    "updated": "2025-08-07T14:42:38.318Z",
+    "user": {
+      "_id": "43qejdgev"
     },
     "solution": {
       "codingSolution": {
-        "language": "java",
-        "code": "import java.util.Scanner;\n\nclass Product {\n    private int id;\n    private int nameCode;\n    private double price;\n\n    public Product(int id, int nameCode, double price) {\n        this.id = id;\n        this.nameCode = nameCode;\n        this.price = price;\n    }\n\n    public void displayProductDetails() {\n        System.out.println(\"Product ID: \" + this.id);\n        System.out.println(\"Product Name Code: \" + this.nameCode);\n        System.out.printf(\"Product Price: ₹%.1f\\n\", this.price);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        int productId = scanner.nextInt();\n        int productNameCode = scanner.nextInt();\n        double productPrice = scanner.nextDouble();\n\n        Product product = new Product(productId, productNameCode, productPrice);\n\n        product.displayProductDetails();\n\n        scanner.close();\n    }\n}"
+        "language": "python",
+        "code": "def find_two_sum_indices(nums, target):\n    num_to_index = {}\n    for index, num in enumerate(nums):\n        complement = target - num\n        if complement in num_to_index:\n            first_index = num_to_index[complement]\n            second_index = index\n            return sorted([first_index, second_index])\n        num_to_index[num] = index\n\nif __name__ == \"__main__\":\n    try:\n        n = int(input())\n        nums_list = list(map(int, input().split()))\n        target_value = int(input())\n        result_indices = find_two_sum_indices(nums_list, target_value)\n        if result_indices:\n            print(result_indices[0], result_indices[1])\n    except (ValueError, IndexError) as e:\n        print(f\"An error occurred with the input: {e}\")"
       }
     },
-    "submissionsCount": 1,
-    "test": {
-      "_id": "43qnmjrus"
-    },
+    "submissionsCount": 3,
     "testCaseVsResult": {
-      "43re7ydsr": true,
-      "43qcrvzz8": true,
-      "43qcrtuz5": true,
-      "43qcrxpry": false,
-      "43qcs23bn": true,
-      "43qcs3epg": true
-    },
-    "timeSpent": 0,
-    "updated": "2025-08-07T14:27:07.421Z",
-    "user": {
-      "_id": "43qejdgev"
+      "43rtje4mc": true,
+      "43rtjmsc5": true,
+      "43rtjnm6m": true,
+      "43rtjjjug": true,
+      "43rtjped7": true,
+      "43rtjkv25": true,
+      "43rtjh2ug": true
     },
     "userEnvData": null
   }

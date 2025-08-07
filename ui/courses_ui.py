@@ -4,9 +4,9 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Import modular UI components
-from course_details_window import show_course_details_window
-from practices_window import show_practices_window
-from code_editor_window import show_code_editor_window
+from .course_details_window import show_course_details_window
+from .practices_window import show_practices_window
+from .code_editor_window import show_code_editor_window
 
 def fetch_cu_courses(jwt_token):
     API_URL = "https://bytexl.app/api/courses?includeMetrics=true"

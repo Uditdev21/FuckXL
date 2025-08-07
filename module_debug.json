@@ -1,176 +1,132 @@
 {
-  "_id": "43q9gvmpx",
-  "title": "UNIT-1",
+  "_id": "43qcgjdxq",
+  "title": "Unit 1 - Intro to Competitive Programming",
   "topics": [
     {
-      "_id": "43q9gvmsb",
-      "title": "Java Fundamentals",
+      "_id": "43qcgje55",
+      "title": "Arrays",
       "subTopics": [
         {
-          "_id": "43q9gvmv4",
-          "title": "Introduction to Java",
+          "_id": "43qcgjebs",
+          "title": "Arrays",
           "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmg7f8h/introduction-to-java/introduction-to-java",
-          "time": 5
+          "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4335gs29y/arrays/arrays",
+          "time": 0
         },
         {
-          "_id": "43q9h8mdu",
-          "title": "Difference between C++ and Java",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmgrprv/introduction-to-java/difference-between-c-and-java",
-          "time": 5
-        },
-        {
-          "_id": "43q9h927t",
-          "title": " Keywords, Tokens",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmhv2g4/introduction-to-java/keywords-and-token",
-          "time": 6
-        },
-        {
-          "_id": "43q9h9qyd",
-          "title": "Data types",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/3zg859sm2/java/434jhkhvu/variables-data-types/data-types",
-          "time": 7
-        },
-        {
-          "_id": "43q9ha6ze",
-          "title": "Use of public, private, and protected.",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qmg62z8/cu-java/43qmj8nxa/introduction-to-java/use-of-public-private-and-protected",
-          "time": 5
-        },
-        {
-          "_id": "43qnq6tj7",
-          "title": "MCQ - Java Fundamentals",
+          "_id": "43qmr9tua",
+          "title": "MCQ - Arrays",
           "topicType": "quiz",
-          "data": "https://bytexl.app/test/43qs8ncre/chapter-1-java-fundamentals",
-          "time": 10
+          "data": "https://bytexl.app/test/43rtw5nxh/mcq-arrays",
+          "time": 0
         },
         {
-          "_id": "43q9hagss",
-          "title": "Practice - Java Fundamentals",
+          "_id": "43qchgzug",
+          "title": "Practice - Arrays",
           "topicType": "lab",
-          "data": "https://bytexl.app/lab/43q9jq6by",
-          "time": 50
+          "data": "https://bytexl.app/lab/43rtuac4v",
+          "time": 0
         }
       ]
     },
     {
-      "_id": "43qg2hwz7",
-      "title": "OOPS using Java",
+      "_id": "43rtvdyh2",
+      "title": " Stacks, Queues",
       "subTopics": [
         {
-          "_id": "43qg2hx2f",
-          "title": "Class and method",
+          "_id": "43rtvdywm",
+          "title": "Stacks",
           "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9s9mm/unit-1-chapter-2/class-and-object",
-          "time": 5
+          "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334nvqmn/stacks/stacks",
+          "time": 0
         },
         {
-          "_id": "43qg2k6ja",
-          "title": "Inheritance",
+          "_id": "43rtvherx",
+          "title": "Queues",
           "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9v2a9/unit-1-chapter-2/inheritance",
-          "time": 6
+          "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334nx7me/queues/queues",
+          "time": 0
         },
         {
-          "_id": "43qg2m5rp",
-          "title": "Abstraction",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qr9v4xb/unit-1-chapter-2/abstraction",
-          "time": 6
-        },
-        {
-          "_id": "43qg2mhcd",
-          "title": "Polymorphism",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb2gba/unit-1-chapter-2/polymorphism",
-          "time": 6
-        },
-        {
-          "_id": "43qg2my56",
-          "title": " Encapsulation",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb6d2k/unit-1-chapter-2/-encapsulation",
-          "time": 4
-        },
-        {
-          "_id": "43qg2pruu",
-          "title": "Data privacy",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrb6f62/unit-1-chapter-2/data-privacy",
-          "time": 7
-        },
-        {
-          "_id": "43qg2rfy3",
-          "title": "MCQ - OOPS using Java",
+          "_id": "43rtvq8sf",
+          "title": "MCQ - Stacks, Queue",
           "topicType": "quiz",
-          "data": "https://bytexl.app/test/43qs96zgt/chapter-2-oops-using-java",
-          "time": 10
+          "data": "https://bytexl.app/test/43rtwfzqf/mcq-stacks-queue",
+          "time": 0
         },
         {
-          "_id": "43qg2q2r7",
-          "title": "Practice - OOPS using Java",
+          "_id": "43ruspbas",
+          "title": "Practice -  Stacks, Queues",
           "topicType": "lab",
-          "data": "https://bytexl.app/lab/43qnpk2cr",
-          "time": 50
+          "data": "https://bytexl.app/lab/43rtuj9wu",
+          "time": 0
         }
       ]
     },
     {
-      "_id": "43qg2uudr",
-      "title": "Exception Handing",
+      "_id": "43qcgqkjm",
+      "title": "Linked List",
       "subTopics": [
         {
-          "_id": "43qg2uuf5",
-          "title": "Introduction to Exceptions",
+          "_id": "43qcgqkqn",
+          "title": "Linked Lists",
           "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbhsuh/unit-1-chapter-3/introduction-to-exceptions",
-          "time": 5
+          "data": "https://bytexl.app/content/4334gqyby/dsa-for-placement-readiness/4334p4xvh/linked-lists/linked-lists",
+          "time": 0
         },
         {
-          "_id": "43qg2wvv2",
-          "title": " Difference between error and exception",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbrhpk/unit-1-chapter-3/-difference-between-error-and-exception",
-          "time": 6
-        },
-        {
-          "_id": "43qg2xacv",
-          "title": "try, catch and throw",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbtycp/unit-1-chapter-3/try-catch-and-throw",
-          "time": 7
-        },
-        {
-          "_id": "43qg33cec",
-          "title": "Types of Exceptions",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrbyqrr/unit-1-chapter-3/types-of-exceptions",
-          "time": 8
-        },
-        {
-          "_id": "43qg33qty",
-          "title": "Exception handling in Java",
-          "topicType": "readingMaterial",
-          "data": "https://bytexl.app/content/43qjqywvh/pblj/43qrc2n5y/unit-1-chapter-3/exception-handling",
-          "time": 6
-        },
-        {
-          "_id": "43qg34ns8",
-          "title": "MCQs - Exception Handling",
+          "_id": "43qmre9k3",
+          "title": "MCQ - Linked Lists",
           "topicType": "quiz",
-          "data": "https://bytexl.app/test/43qsabjhy/chapter-3-exception-handling",
-          "time": 10
+          "data": "https://bytexl.app/test/43qrrdfha/cu-cc-linked-lists-mcq",
+          "time": 0
         },
         {
-          "_id": "43qg33yma",
-          "title": "Practice - Exception Handling",
+          "_id": "43qf3kjfb",
+          "title": "Practice - Linked Lists",
           "topicType": "lab",
-          "data": "https://bytexl.app/lab/43qnppcbk",
-          "time": 50
+          "data": "https://bytexl.app/lab/43qcnyf6m",
+          "time": 0
+        }
+      ]
+    },
+    {
+      "_id": "43qcgraqt",
+      "title": "Divide and Conquer",
+      "subTopics": [
+        {
+          "_id": "43qcgraw6",
+          "title": "Divide and Conquer",
+          "topicType": "readingMaterial",
+          "data": "https://bytexl.app/content/43qsrbsee/cu-competitive-coding/43qsrcu4z/divide-and-conquer/divide-and-conquer",
+          "time": 0
+        },
+        {
+          "_id": "43qmrfnwh",
+          "title": "MCQ - Divide and Conquer",
+          "topicType": "quiz",
+          "data": "https://bytexl.app/test/43qs286da/cu-cc-divide-and-conquer-mcq",
+          "time": 0
+        },
+        {
+          "_id": "43qf468z2",
+          "title": "Practice - Divide and Conquer",
+          "topicType": "lab",
+          "data": "https://bytexl.app/lab/43qcnzy8g",
+          "time": 0
+        }
+      ]
+    },
+    {
+      "_id": "43qmrhm6f",
+      "title": "Module Test",
+      "subTopics": [
+        {
+          "_id": "43qmrhmes",
+          "title": "Introduction to Competitive Programming",
+          "topicType": "test",
+          "data": "",
+          "time": 0
         }
       ]
     }

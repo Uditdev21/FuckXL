@@ -1,12 +1,12 @@
 {
   "status": "success",
   "data": {
-    "_id": "43qnmjrus",
-    "title": "CU - PBLJ - Experiment 1.2 Lab",
+    "_id": "43qcnsttr",
+    "title": "CU - Competitive Coding - Divide and Conquer - Lab",
     "description": "Lab Programs",
     "tags": [
-      "cu-fullstackdev-2025",
-      "Practice Questions"
+      "CU-Divide and Conquer Lab",
+      "CU-CC-Lab"
     ],
     "status": "published",
     "startDate": "",
@@ -24,92 +24,95 @@
     "sendEmailReportAt": "",
     "questions": [
       {
-        "_id": "43qcs5e2k",
-        "title": "Product Class with Constructor & Display",
-        "description": "You are developing a system for a store where products are stored with numeric codes for name and ID. The goal is to create a Product class that can initialize and display product details using numeric input only\n\n**Create a Java class named Product with the following numeric attributes:**\n* id (int) — unique identifier for the product\n* nameCode (int) — numeric representation of the product name\n* price (double) — product price\n* Implement a constructor to initialize these attributes, and a method displayProductDetails() to print them.\n\n#### Input Format\n- Product ID (integer)\n- Product Name Code (integer)\n- Product Price (double)\n\n#### Output Format\n- **Print the product details:**\n     - Product ID \n     - Product Name Code\n     - Product Price\n\n#### Constraints\n- ID > 0\n- Price ≥ 0\n- Name Code is a numeric representation (simulated name lookup)",
+        "_id": "43qbruhya",
+        "title": "Identifying the Longest Balanced Case Substring",
+        "description": "A security system checks passcodes for \"case-symmetric strength.\" A strong segment in a passcode must contain each alphabetic character in both its uppercase and lowercase form. You are required to write a function that identifies the longest such strong segment within a given code string.\r\n\r\nGiven a string s, find the longest substring in which every character present has both its uppercase and lowercase forms also present within the same substring.\r\n\r\nA substring is called nice if for every letter it contains, it includes both the uppercase and lowercase versions of that letter.\r\nReturn the longest nice substring of s. If there are multiple with the same length, return the first one. If none exist, return an empty string.\r\n\r\n**Explanation:**\r\nUse a divide and conquer strategy:\r\n* Check the entire string: if it's nice, return it.\r\n* If not, find the first character that violates the condition.\r\n* Split the string at that character and recursively process left and right parts.\r\n* Return the longer result among both.\r\n* This reduces unnecessary recomputation.\r\n\r\n#### Input Format:\r\n* A single string `s`\r\n\r\n#### Output Format:\r\nA string representing the longest nice substring of s\r\n\r\n#### Constraints:\r\n* 1 ≤ |s| ≤ 100\r\n* `s` consists of only English letters (a-z, A-Z)",
         "explanation": "",
         "score": 5,
         "type": "coding",
         "difficulty": "easy",
-        "bloomTaxonomy": "",
+        "bloomTaxonomy": "apply",
         "tags": [
-          "OOPS",
-          "Java Basics",
-          "Classes & Objects",
-          "Experiment 1.2"
+          "cu-cc-2025",
+          "practice-question"
         ],
         "subjects": [
-          "java"
+          "DAA ( Design Analysis & Algorithms)"
         ],
         "topics": [],
         "subTopics": [],
-        "companies": [
-          "TCS",
-          "Wipro",
-          "Infosys",
-          "Tech Mahindra"
-        ],
+        "companies": [],
         "status": "published",
         "submit": null,
         "codeOptions": {
           "supportedLanguages": [
+            "cpp",
             "java"
           ],
           "testCases": [
             {
-              "id": "43qcrtuz5",
-              "input": "200\n3456\n18000.50",
+              "id": "43qbrpvxw",
+              "input": "YazaAay",
               "output": "",
               "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qcrvzz8",
-              "input": "301\n7654\n2500",
+              "id": "43qbrs866",
+              "input": "Bb",
               "output": "",
               "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qcrxpry",
-              "input": "450\n9001\n7999.99",
+              "id": "43qbrs8ss",
+              "input": "cCzZyYaA",
               "output": "",
               "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qcs23bn",
-              "input": "111\n5555\n1500 ",
+              "id": "43qbrs98c",
+              "input": "abcDEF",
               "output": "",
               "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qcs3epg",
-              "input": "890\n7777\n12000.00",
+              "id": "43qbrsaaw",
+              "input": "AbCdEfGhIjKkJiHgFeDcBa",
               "output": "",
               "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43re7ydsr",
-              "input": "101  \n2001  \n55000 ",
-              "output": "Product ID: 101\nProduct Name Code: 2001\nProduct Price: ₹55000.0",
+              "id": "43rbketag",
+              "input": "YazaAay",
+              "output": "aAa",
               "difficulty": "easy",
               "visibility": "public",
-              "explanation": "**Product ID:** 101 — This is the unique ID assigned to the product.\n**Product Name Code:** 2001 — This numeric code acts as a placeholder for the product's name in the system (like a code for \"Laptop\" or \"TV\").\n**Product Price**: ₹55000.0 — This shows the product’s price; printed as a double, so it includes a decimal point."
+              "explanation": "* The entire string is not nice because 'z' doesn't have its uppercase 'Z'.\n* Splitting around 'z' and checking both sides:\n* Left \"Ya\" is not nice.\n* Right \"aAay\" → only \"aAa\" is nice.\nSo, the longest nice substring is aAa."
+            },
+            {
+              "id": "43rbkfzdj",
+              "input": "Bb",
+              "output": "Bb",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "* Both 'B' and 'b' are present.\n* The entire string is already nice.\nSo, the output is Bb."
             }
           ],
           "preloads": {
             "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
-            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "cpp": "",
             "java": "",
             "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
             "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
             "sql": "SELECT * FROM users;"
           },
           "codeSolutions": {
-            "java": "import java.util.Scanner;\n\nclass Product {\n    private int id;\n    private int nameCode;\n    private double price;\n\n    // Constructor\n    public Product(int id, int nameCode, double price) {\n        this.id = id;\n        this.nameCode = nameCode;\n        this.price = price;\n    }\n\n    // Method to display product details\n    public void displayProductDetails() {\n        System.out.println(\"Product ID: \" + id);\n        System.out.println(\"Product Name Code: \" + nameCode);\n        System.out.println(\"Product Price: ₹\" + price);\n    }\n}\n\npublic class ProductDemo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Reading numeric inputs\n        int id = sc.nextInt();\n        int nameCode = sc.nextInt();\n        double price = sc.nextDouble();\n\n        Product product = new Product(id, nameCode, price);\n        product.displayProductDetails();\n    }\n}\n"
+            "cpp": "#include <iostream>\n#include <string>\n#include <unordered_set>\nusing namespace std;\n\nstring longestNiceSubstring(string s) {\n    if (s.length() < 2) return \"\";\n\n    unordered_set<char> st(s.begin(), s.end());\n\n    for (int i = 0; i < s.length(); ++i) {\n        char c = s[i];\n        if (st.count(tolower(c)) && st.count(toupper(c))) continue;\n\n        string left = longestNiceSubstring(s.substr(0, i));\n        string right = longestNiceSubstring(s.substr(i + 1));\n\n        return left.length() >= right.length() ? left : right;\n    }\n    return s;\n}\n\nint main() {\n    string s;\n    cin >> s;\n    cout << longestNiceSubstring(s) << endl;\n    return 0;\n}\n",
+            "java": "import java.util.*;\n\npublic class Main {\n\n    public static String longestNiceSubstring(String s) {\n        if (s.length() < 2) return \"\";\n\n        Set<Character> set = new HashSet<>();\n        for (char c : s.toCharArray()) set.add(c);\n\n        for (int i = 0; i < s.length(); i++) {\n            char c = s.charAt(i);\n            if (set.contains(Character.toLowerCase(c)) && set.contains(Character.toUpperCase(c)))\n                continue;\n\n            String left = longestNiceSubstring(s.substring(0, i));\n            String right = longestNiceSubstring(s.substring(i + 1));\n            return left.length() >= right.length() ? left : right;\n        }\n\n        return s;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String input = sc.next();\n        System.out.println(longestNiceSubstring(input));\n    }\n}\n"
           },
           "hints": [],
           "ignoreCase": true,
@@ -133,106 +136,110 @@
         },
         "partialScore": true,
         "updatedBy": {
-          "_id": "43375cmu4",
-          "name": "Chetan Garg"
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
         },
         "createdBy": {
-          "_id": "42822rb2h",
-          "name": "Reshma"
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
         },
-        "hash": "98f818acb3d6f37d6d3fcd76dcdf5548925be09c",
-        "created": "2025-07-11T13:18:19.709Z",
-        "updated": "2025-07-29T09:44:31.138Z",
+        "hash": "820743406af443bd9aa17b7d61cb424543318f6e",
+        "created": "2025-07-11T05:16:46.212Z",
+        "updated": "2025-07-22T06:56:52.715Z",
         "subType": "programming"
       },
       {
-        "_id": "43qczmv76",
-        "title": "Library Management System  using Inheritance",
-        "description": "You are developing a basic Library Management System to keep track of books. Each book has an ID, title (represented using numeric code), and availability status. The system allows you to display book details and check books in and out. Use inheritance to extend a base LibraryItem class.\r\n\r\n**Create a superclass LibraryItem with the following attributes:**\r\n- itemId (int)\r\n- titleCode (int) (a number that represents the book title)\r\n- available (boolean)\r\n\r\n**Then create a subclass Book that extends LibraryItem and includes methods to:**\r\n- Display book details\r\n- Check out a book (mark unavailable)\r\n- Return a book (mark available)\r\n\r\n#### Input Format\r\n\r\n* An integer representing the Book ID (itemId)\r\n* An integer representing the Title Code (titleCode)\r\n* An integer representing Availability (1 = available, 0 = not available)\r\n\r\n**One or more integers representing operations (each on a new line or space-separated):**\r\n\r\n* 1 → Check out\r\n* 2 → Return\r\n* 3 → Display Details\r\n\r\nNote: The input terminates when no more integers are available (EOF).\r\n\r\n#### Output Format\r\nAfter each operation, output as follows:\r\n**For Checkout:**\r\n\r\n* If book is available: \"Book Checked Out Successfully.\"\r\n* If already checked out: \"Already checked out.\"\r\n\r\n**For Return:**\r\n\r\n* If book is not available: \"Book Returned Successfully.\"\r\n* If already available: \"Already available.\"\r\n\r\n**For Display:**\r\n\r\n* Book ID: <itemId>\r\n* Title Code: <titleCode>\r\n* Available: <true/false>\r\n\r\nFor any invalid operation: \"Invalid operation.\"\r\n\r\n#### Constraints\r\n\r\n* itemId > 0\r\n* titleCode > 0\r\n* availability is either 1 (true) or 0 (false)\r\n* Operation codes must be integers among {1, 2, 3}\r\n* All inputs are integers only\r\n* Maximum of 100 operations can be assumed for normal usage",
+        "_id": "43qbstvh6",
+        "title": "Mirror the Bit Sequence of an Integer",
+        "description": "A secure hardware communication module stores signal packets as 32-bit unsigned integers. However, due to architectural differences between the sending and receiving units, the transmission requires reversing the entire bit sequence of every 32-bit number before processing. Your task is to implement the function that mirrors the bits of such integers using a divide and conquer strategy.\r\n\r\nYou are provided with a 32-bit unsigned integer. Your task is to reverse the bit pattern of the integer and return the resulting unsigned integer value.\r\nUse an efficient Divide and Conquer approach to accomplish this.\r\n\r\n**Explanation:**\r\n* Each 32-bit integer can be visualized as a binary string of 32 digits. Reversing this string involves flipping the bit positions:\r\n* The most significant bit (MSB) becomes the least significant bit (LSB).\r\n* The second MSB becomes the second LSB, and so on.\r\n* To achieve this efficiently, use a divide and conquer strategy by:\r\n    Splitting the 32-bit number into smaller segments (16, 8, 4, 2, 1 bits).\r\n* Reversing the bits within each segment using bitwise operations.\r\n*Reassembling the segments in the reverse order.\r\n\r\n#### Input Format:\r\n* A single unsigned 32-bit integer `n`.\r\n\r\n#### Output Format:\r\n* A single unsigned 32-bit integer representing the bit-reversed value of the input.\r\n\r\n#### Constraints:\r\n* 0 ≤ n ≤ 2³² - 1\r\n* The input is treated as a 32-bit unsigned integer.",
         "explanation": "",
         "score": 5,
         "type": "coding",
         "difficulty": "easy",
-        "bloomTaxonomy": "",
+        "bloomTaxonomy": "apply",
         "tags": [
-          "Java",
-          "OOP",
-          "Inheritance",
-          "Classes & Objects",
-          "Experiment 1.2"
+          "cu-cc-2025",
+          "practice-question"
         ],
         "subjects": [
-          "java"
+          "DAA ( Design Analysis & Algorithms)"
         ],
         "topics": [],
-        "subTopics": [],
-        "companies": [
-          "TCS",
-          "Capgemini",
-          "Infosys",
-          "HCL"
+        "subTopics": [
+          "Divide and Conquer"
         ],
+        "companies": [],
         "status": "published",
         "submit": null,
         "codeOptions": {
           "supportedLanguages": [
+            "cpp",
             "java"
           ],
           "testCases": [
             {
-              "id": "43qcz9ujn",
-              "input": "2002\n999\n1\n1\n3  ",
+              "id": "43qbsbtqq",
+              "input": "43261596",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qczbpht",
-              "input": "3003\n777\n0\n2\n3",
+              "id": "43qbsd39u",
+              "input": "1",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qczdmkx",
-              "input": "4004\n888\n1\n1\n1\n3 ",
+              "id": "43qbsd3ns",
+              "input": "0",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qczgnfg",
-              "input": "1234\n333\n1\n3  ",
+              "id": "43qbsd3yk",
+              "input": "4294967295",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qczhvsq",
-              "input": "1010\n101\n0\n1\n3  ",
+              "id": "43qbsd4at",
+              "input": "2",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43re865be",
-              "input": "1001  \n501  \n1  \n1  \n3 ",
-              "output": "Book Checked Out Successfully.\nBook ID: 1001\nTitle Code: 501\nAvailable: false",
+              "id": "43rbkknck",
+              "input": "43261596",
+              "output": "964176192",
               "difficulty": "easy",
               "visibility": "public",
-              "explanation": "- The book with ID 1001 and title code 501 was initially available. \n- After performing a checkout, it became unavailable. \n- Then, the display operation showed the updated details with availability marked as false."
+              "explanation": "* Binary of 43261596: 00000010100101000001111010011100\n* Reversed binary: 00111001011110000010100101000000\n* Decimal output: 964176192"
+            },
+            {
+              "id": "43rbkn4ev",
+              "input": "4294967293",
+              "output": "3221225471",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "* Binary of 4294967293: 11111111111111111111111111111101\n* Reversed binary: 10111111111111111111111111111111\n* Decimal output: 3221225471"
             }
           ],
           "preloads": {
             "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
-            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "cpp": "",
             "java": "",
             "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
             "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
             "sql": "SELECT * FROM users;"
           },
           "codeSolutions": {
-            "java": "import java.util.Scanner;\n\n// Base class\nclass LibraryItem {\n    protected int itemId;\n    protected int titleCode;\n    protected boolean available;\n\n    public LibraryItem(int itemId, int titleCode, boolean available) {\n        this.itemId = itemId;\n        this.titleCode = titleCode;\n        this.available = available;\n    }\n\n    public void displayDetails() {\n        System.out.println(\"Book ID: \" + itemId);\n        System.out.println(\"Title Code: \" + titleCode);\n        System.out.println(\"Available: \" + available);\n    }\n}\n\n// Subclass\nclass Book extends LibraryItem {\n\n    public Book(int itemId, int titleCode, boolean available) {\n        super(itemId, titleCode, available);\n    }\n\n    public void checkOut() {\n        if (available) {\n            available = false;\n            System.out.println(\"Book Checked Out Successfully.\");\n        } else {\n            System.out.println(\"Already checked out.\");\n        }\n    }\n\n    public void returnBook() {\n        if (!available) {\n            available = true;\n            System.out.println(\"Book Returned Successfully.\");\n        } else {\n            System.out.println(\"Already available.\");\n        }\n    }\n}\n\npublic class LibrarySystem {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input item details\n        int id = sc.nextInt();\n        int titleCode = sc.nextInt();\n        int availFlag = sc.nextInt(); // 1 for true, 0 for false\n\n        Book book = new Book(id, titleCode, availFlag == 1);\n\n        // Perform operations\n        while (sc.hasNextInt()) {\n            int operation = sc.nextInt();\n            if (operation == 1) {\n                book.checkOut();\n            } else if (operation == 2) {\n                book.returnBook();\n            } else if (operation == 3) {\n                book.displayDetails();\n            } else {\n                System.out.println(\"Invalid operation.\");\n            }\n        }\n    }\n}\n"
+            "java": "public class BitReverser {\n    public int reverseBits(int n) {\n        n = (n >>> 16) | (n << 16);\n        n = ((n & 0xff00ff00) >>> 8) | ((n & 0x00ff00ff) << 8);\n        n = ((n & 0xf0f0f0f0) >>> 4) | ((n & 0x0f0f0f0f) << 4);\n        n = ((n & 0xcccccccc) >>> 2) | ((n & 0x33333333) << 2);\n        n = ((n & 0xaaaaaaaa) >>> 1) | ((n & 0x55555555) << 1);\n        return n;\n    }\n public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        System.out.println(reverseBits(n));\n    }\n}\n",
+            "cpp": "#include <iostream>\n#include <cstdint>\nusing namespace std;\n\nuint32_t reverseBits(uint32_t n) {\n    n = (n >> 16) | (n << 16);\n    n = ((n & 0xff00ff00) >> 8) | ((n & 0x00ff00ff) << 8);\n    n = ((n & 0xf0f0f0f0) >> 4) | ((n & 0x0f0f0f0f) << 4);\n    n = ((n & 0xcccccccc) >> 2) | ((n & 0x33333333) << 2);\n    n = ((n & 0xaaaaaaaa) >> 1) | ((n & 0x55555555) << 1);\n    return n;\n}\n\nint main() {\n    uint32_t n;\n    cin >> n;\n    cout << reverseBits(n) << endl;\n    return 0;\n}\n"
           },
           "hints": [],
           "ignoreCase": true,
@@ -256,109 +263,113 @@
         },
         "partialScore": true,
         "updatedBy": {
-          "_id": "4275k4vp6",
-          "name": "MEGHANA KAVALA"
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
         },
         "createdBy": {
-          "_id": "42822rb2h",
-          "name": "Reshma"
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
         },
-        "hash": "03400b1593da9b3ad8ee37d8dbfe6935b099a683",
-        "created": "2025-07-11T15:13:44.817Z",
-        "updated": "2025-07-30T11:27:03.211Z",
+        "hash": "8feb7f5cf7b913b3fe0d717013c7139acbc9f288",
+        "created": "2025-07-11T05:31:50.075Z",
+        "updated": "2025-07-22T06:57:19.008Z",
         "subType": "programming"
       },
       {
-        "_id": "43qd2qsdh",
-        "title": "Student Information System using Abstraction and Inheritance",
-        "description": "Educational institutions often manage different types of individuals — students, teachers, etc. They may share some basic information (like name and age), but also have role-specific attributes. You are asked to create a system that uses abstraction to generalize common behavior and inheritance to differentiate student and teacher details.\n\n**Create an abstract class Person with the following attributes:**\n- name (String)\n- age (int)\n\n**And the method:**\n- displayDetails() — abstract method\n\n**Then create two derived classes:**\n- Student (with additional attribute: rollNumber - int)\n- Teacher (with additional attribute: subjectCode - int)\n\nOverride displayDetails() in both classes and display all relevant information.\n\n#### Input Format\n- Person type (1 for Student, 2 for Teacher)\n- Name (String, assume as a single word or hardcoded for simplicity)\n- Age (int)\n- Roll Number (int) for Student OR Subject Code (int) for Teacher\n\n#### Output Format\n- Print details of Student or Teacher using the overridden method.\n\n#### Constraints\n- Age must be a positive number\n- Roll Number and Subject Code must be integers\n- Name should be treated as a single-word string",
+        "_id": "43qbtqkvr",
+        "title": "Count the Activated Flags Using Divide and Conquer Bit Folding",
+        "description": "A hardware monitoring system reports statuses of 32 subsystems in a single 32-bit integer. Each bit represents whether a subsystem is active (1) or inactive (0).\r\nYour task is to quickly count how many subsystems are active using an optimized bitwise divide and conquer method — without looping through all 32 bits.\r\n\r\nGiven a 32-bit unsigned integer, determine how many bits are turned ON (1) in its binary representation.\r\nUse a Divide and Conquer approach to solve this efficiently without checking each bit individually.\r\n\r\n**Explanation:**\r\nInstead of checking each bit, apply a strategy that:\r\n  Groups bits into pairs and sums them.\r\n  Then groups into 4s, 8s, 16s...\r\nUntil all set bits are counted efficiently.\r\nThis method reduces the time to a constant number of operations using bitwise masks and shifts.\r\n\r\n#### Input Format:\r\n* A single 32-bit unsigned integer n.\r\n\r\n#### Output Format:\r\n* An integer representing the number of set bits (1s) in the binary representation of n.\r\n\r\n#### Constraints:\r\n* 0 ≤ n ≤ 2³² - 1\r\n* Input is a valid 32-bit unsigned integer",
         "explanation": "",
         "score": 5,
         "type": "coding",
         "difficulty": "easy",
-        "bloomTaxonomy": "understand",
+        "bloomTaxonomy": "apply",
         "tags": [
-          "Java",
-          "OOp",
-          "Abstraction",
-          "Inheritance",
-          "Experiment 1.2"
+          "cu-cc-2025",
+          "practice-question"
         ],
         "subjects": [
-          "java"
+          "DAA ( Design Analysis & Algorithms)"
         ],
         "topics": [],
-        "subTopics": [],
-        "companies": [
-          "Infosys",
-          "TCS",
-          "Wipro",
-          "Accenture"
+        "subTopics": [
+          "Divide and Conquer"
         ],
+        "companies": [],
         "status": "published",
         "submit": null,
         "codeOptions": {
           "supportedLanguages": [
+            "cpp",
             "java"
           ],
           "testCases": [
             {
-              "id": "43qd26ekg",
-              "input": "1\nBob\n18\n1023",
+              "id": "43qbtmkt3",
+              "input": "11",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qd2bvca",
-              "input": "2\nMeena\n35\n501 ",
+              "id": "43qbtpfe5",
+              "input": "128",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qd2crse",
-              "input": "2\nArjun\n45\n888 ",
+              "id": "43qbtpg3z",
+              "input": "0",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qd2ds9h",
-              "input": "1\nKiran\n22\n3045  ",
+              "id": "43qbtpgam",
+              "input": "4294967295",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43qd2eyem",
-              "input": "2\nRavi\n50\n110 ",
+              "id": "43qbtpgeh",
+              "input": "2147483648",
               "output": "",
-              "difficulty": "medium",
+              "difficulty": "easy",
               "visibility": "private"
             },
             {
-              "id": "43re88s4b",
-              "input": "1  \nAlice  \n20  \n1001 ",
-              "output": "Student Details:\nName: Alice\nAge: 20\nRoll Number: 1001",
+              "id": "43rbm7a5w",
+              "input": "11",
+              "output": "3",
               "difficulty": "easy",
               "visibility": "public",
-              "explanation": "- A student named Alice, aged 20, with roll number 1001 is created. \n- The overridden method displays these details as student information."
+              "explanation": "Binary Representation: 00000000000000000000000000001011\n* Set bits (1s) are at positions: 0, 1, and 3\n* Total 3 bits are set.\n    Output: 3"
+            },
+            {
+              "id": "43rbm8jhs",
+              "input": "128",
+              "output": "1",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "Binary Representation: 00000000000000000000000010000000\n* Only one bit is set at position 7\n* Total 1 bit is set.\n    Output: 1"
             }
           ],
           "preloads": {
             "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
-            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "cpp": "",
             "java": "",
             "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
             "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
             "sql": "SELECT * FROM users;"
           },
           "codeSolutions": {
-            "java": "import java.util.Scanner;\n\n// Abstract class\nabstract class Person {\n    protected String name;\n    protected int age;\n\n    public Person(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n\n    // Abstract method\n    public abstract void displayDetails();\n}\n\n// Student class\nclass Student extends Person {\n    private int rollNumber;\n\n    public Student(String name, int age, int rollNumber) {\n        super(name, age);\n        this.rollNumber = rollNumber;\n    }\n\n    @Override\n    public void displayDetails() {\n        System.out.println(\"Student Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Roll Number: \" + rollNumber);\n    }\n}\n\n// Teacher class\nclass Teacher extends Person {\n    private int subjectCode;\n\n    public Teacher(String name, int age, int subjectCode) {\n        super(name, age);\n        this.subjectCode = subjectCode;\n    }\n\n    @Override\n    public void displayDetails() {\n        System.out.println(\"Teacher Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Subject Code: \" + subjectCode);\n    }\n}\n\n// Main class\npublic class StudentInformationSystem {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int personType = sc.nextInt(); // 1 for Student, 2 for Teacher\n        String name = sc.next();       // Assume single-word name\n        int age = sc.nextInt();\n\n        if (personType == 1) {\n            int rollNumber = sc.nextInt();\n            Person student = new Student(name, age, rollNumber);\n            student.displayDetails();\n        } else if (personType == 2) {\n            int subjectCode = sc.nextInt();\n            Person teacher = new Teacher(name, age, subjectCode);\n            teacher.displayDetails();\n        } else {\n            System.out.println(\"Invalid person type.\");\n        }\n    }\n}\n"
+            "cpp": "#include <iostream>\n#include <cstdint>\nusing namespace std;\n\nuint32_t hammingWeight(uint32_t n) {\n    n = (n & 0x33333333) + ((n >> 2) & 0x33333333);\n    n = (n + (n >> 4)) & 0x0f0f0f0f;\n    n = n + (n >> 8);\n    n = n + (n >> 16);\n    return n & 0x3f;\n}\n\nint main() {\n    uint32_t n;\n    cin >> n;\n    cout << hammingWeight(n) << endl;\n    return 0;\n}\n",
+            "java": "import java.util.Scanner;\n\npublic class BitCounter {\n    public static int hammingWeight(int n) {\n        n = n - ((n >>> 1) & 0x55555555);\n        n = (n & 0x33333333) + ((n >>> 2) & 0x33333333);\n        n = (n + (n >>> 4)) & 0x0f0f0f0f;\n        n = n + (n >>> 8);\n        n = n + (n >>> 16);\n        return n & 0x3f;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        System.out.println(hammingWeight(n));\n    }\n}\n"
           },
           "hints": [],
-          "ignoreCase": false,
+          "ignoreCase": true,
           "setupFiles": []
         },
         "multipleChoiceOptions": {
@@ -379,33 +390,919 @@
         },
         "partialScore": true,
         "updatedBy": {
-          "_id": "43375cmu4",
-          "name": "Chetan Garg"
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
         },
         "createdBy": {
-          "_id": "42822rb2h",
-          "name": "Reshma"
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
         },
-        "hash": "9b95390449ffedf268af120f08cdc5cf2ad83b80",
-        "created": "2025-07-11T15:30:35.025Z",
-        "updated": "2025-07-29T09:48:44.491Z",
+        "hash": "e590ba3686e368edfb94eeecfb8ff16dc39104f2",
+        "created": "2025-07-11T05:45:35.933Z",
+        "updated": "2025-07-22T06:57:53.788Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qbu3p6h",
+        "title": "Identify the Peak Performance Interval in a Signal Stream",
+        "description": "A network performance analyzer receives a stream of signal strengths captured over time. These values fluctuate, sometimes dropping (negative values) and rising (positive values). Your goal is to identify the time window (subarray) during which the overall signal strength is maximized — that is, the subarray with the highest possible sum.\r\n\r\nGiven a one-dimensional array of integers representing real-time signal strength variations (positive and negative), determine the maximum possible sum of a contiguous subarray (containing at least one element).\r\n\r\n**Explanation:**\r\n* A contiguous subarray is a sequence of one or more adjacent elements.\r\n* You must find the subarray that yields the maximum sum.\r\n* This can be efficiently solved using Kadane’s Algorithm or Divide and Conquer approach.\r\n\r\n#### Input Format:\r\n* An integer n representing the number of elements in the array.\r\n* Followed by n space-separated integers representing the elements of the array.\r\n\r\n#### Output Format:\r\n* A single integer representing the maximum sum of any contiguous subarray.\r\n\r\n#### Constraints:\r\n* 1 ≤ n ≤ 10⁵\r\n* -10⁴ ≤ arr[i] ≤ 10⁴",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "medium",
+        "bloomTaxonomy": "apply",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "DAA ( Design Analysis & Algorithms)"
+        ],
+        "topics": [],
+        "subTopics": [
+          "Divide and Conquer"
+        ],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qbtxtdc",
+              "input": "9\n-2 1 -3 4 -1 2 1 -5 4",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbtyquk",
+              "input": "5\n1 2 3 4 5",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbtyr4q",
+              "input": "4\n-1 -2 -3 -4",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbtyraz",
+              "input": "6\n0 -3 1 1 -2 4",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbtyrj4",
+              "input": "7\n5 -2 -1 3 -2 4 -5",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbr5b5z",
+              "input": "9\n-2 1 -3 4 -1 2 1 -5 4",
+              "output": "6",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "The subarray [4, -1, 2, 1] has the largest sum:\n 4 + (-1) + 2 + 1 = 6"
+            },
+            {
+              "id": "43rbr6hhe",
+              "input": "5\n1 2 3 4 5",
+              "output": "15",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "All elements are positive → the full array gives the highest sum: 1+2+3+4+5 = 15."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\n#include <climits>\n#include <algorithm>\nusing namespace std;\n\n// Helper function for Divide and Conquer\nint helper(vector<int>& nums, int left, int right) {\n    if (left == right) return nums[left];\n    \n    int mid = left + (right - left) / 2;\n    \n    int leftSum = helper(nums, left, mid);\n    int rightSum = helper(nums, mid + 1, right);\n    \n    int leftMax = INT_MIN, sum = 0;\n    for (int i = mid; i >= left; i--) {\n        sum += nums[i];\n        leftMax = max(leftMax, sum);\n    }\n    \n    int rightMax = INT_MIN;\n    sum = 0;\n    for (int i = mid + 1; i <= right; i++) {\n        sum += nums[i];\n        rightMax = max(rightMax, sum);\n    }\n    \n    int crossSum = leftMax + rightMax;\n    \n    return max({leftSum, rightSum, crossSum});\n}\n\n// Main function\nint maxSubArray(vector<int>& nums) {\n    return helper(nums, 0, nums.size() - 1);\n}\n\nint main() {\n    int n;\n    cin >> n;  // Read size of array\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; ++i)\n        cin >> nums[i];  // Read array elements\n\n    cout << maxSubArray(nums) << endl;  // Output result\n    return 0;\n}\n",
+            "java": "import java.util.Scanner;\n\npublic class MaxSubarrayFinder {\n\n    public int maxSubArray(int[] nums) {\n        return divideAndConquer(nums, 0, nums.length - 1);\n    }\n\n    private int divideAndConquer(int[] nums, int left, int right) {\n        if (left == right) return nums[left];\n\n        int mid = left + (right - left) / 2;\n        int leftSum = divideAndConquer(nums, left, mid);\n        int rightSum = divideAndConquer(nums, mid + 1, right);\n\n        int leftMax = Integer.MIN_VALUE, sum = 0;\n        for (int i = mid; i >= left; i--) {\n            sum += nums[i];\n            leftMax = Math.max(leftMax, sum);\n        }\n\n        int rightMax = Integer.MIN_VALUE;\n        sum = 0;\n        for (int i = mid + 1; i <= right; i++) {\n            sum += nums[i];\n            rightMax = Math.max(rightMax, sum);\n        }\n\n        int crossSum = leftMax + rightMax;\n\n        return Math.max(Math.max(leftSum, rightSum), crossSum);\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        // Read input size\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n        \n        // Read array elements\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        // Find and print the maximum subarray sum\n        MaxSubarrayFinder finder = new MaxSubarrayFinder();\n        System.out.println(finder.maxSubArray(nums));\n        \n        sc.close();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "178c4194e05faf09b72ea4dfe39089cd597a856e",
+        "created": "2025-07-11T05:51:05.828Z",
+        "updated": "2025-07-22T06:58:23.181Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qbujj9u",
+        "title": "Locate a Target Value in a Sorted Grid-Based Dataset",
+        "description": "In large databases and data warehouses, sorted records are often stored in a grid-based structure. Efficiently checking the presence of a specific record (target value) in such a grid is critical to query optimization.\r\n This challenge replicates that search problem on a mini scale, where the data is structured row-wise and globally sorted.\r\n\r\nYou are given a grid-based dataset represented as a 2D matrix where:\r\n* Each row is sorted in ascending order\r\n* The first integer of each row is greater than the last integer of the previous row\r\n\r\n* Given a target value, determine whether it exists in the matrix.\r\n  Return true if it exists, else return false.\r\n\r\n**Explanation:**\r\nWe can treat the entire matrix as a flattened sorted array of size m * n.\r\n Apply binary search over this virtual array, mapping each index back to matrix coordinates using:\r\n* row = index / n\r\n* col = index % n\r\nThis preserves binary search logic in 2D space.\r\n\r\n#### Input Format:\r\n* **First line:** Two integers `m` and `n` (number of rows and columns)\r\n* **Next m lines:** Each line contains n space-separated integers (matrix)\r\n* **Last line:** A single integer target to search for\r\n\r\n#### Output Format:\r\n`true` or `false` depending on whether the target exists in the matrix\r\n\r\n#### Constraints:\r\n* 1 ≤ m, n ≤ 100\r\n* -10⁴ ≤ matrix[i][j], target ≤ 10⁴",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "medium",
+        "bloomTaxonomy": "apply",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "DAA ( Design Analysis & Algorithms)"
+        ],
+        "topics": [],
+        "subTopics": [
+          "Divide and Conquer",
+          "Binary Search"
+        ],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qbueahz",
+              "input": "3 3\n1 2 3\n4 5 6\n7 8 9\n8",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbufh35",
+              "input": "2 3\n1 3 5\n7 9 11\n6",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbufh9f",
+              "input": "1 5\n1 4 7 10 13\n7",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbufhmb",
+              "input": "2 2\n-5 -1\n0 4\n2",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbufhtt",
+              "input": "3 3\n1 2 3\n10 20 30\n35 40 45\n40",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbr9khp",
+              "input": "3 4\n1 3 5 7\n10 11 16 20\n23 30 34 60\n3",
+              "output": "true",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "The number 3 exists in the matrix at position [0][1]."
+            },
+            {
+              "id": "43rbraykx",
+              "input": "3 4\n1 3 5 7\n10 11 16 20\n23 30 34 60\n13",
+              "output": "false",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "The number 13 doesn't exists in the matrix."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nbool searchMatrix(vector<vector<int>>& matrix, int target) {\n    if (matrix.empty() || matrix[0].empty()) return false;\n\n    int m = matrix.size(), n = matrix[0].size();\n    int low = 0, high = m * n - 1;\n\n    while (low <= high) {\n        int mid = (low + high) / 2;\n        int value = matrix[mid / n][mid % n];\n        if (value == target) return true;\n        else if (value < target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return false;\n}\n\nint main() {\n    int m, n;\n    cin >> m >> n;\n    vector<vector<int>> matrix(m, vector<int>(n));\n    \n    for (int i = 0; i < m; ++i)\n        for (int j = 0; j < n; ++j)\n            cin >> matrix[i][j];\n\n    int target;\n    cin >> target;\n\n    cout << (searchMatrix(matrix, target) ? \"true\" : \"false\") << endl;\n    return 0;\n}\n",
+            "java": "import java.util.Scanner;\n\npublic class MatrixSearch {\n    public static boolean searchMatrix(int[][] matrix, int target) {\n        int m = matrix.length, n = matrix[0].length;\n        int low = 0, high = m * n - 1;\n\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            int value = matrix[mid / n][mid % n];\n            if (value == target) return true;\n            else if (value < target) low = mid + 1;\n            else high = mid - 1;\n        }\n\n        return false;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int m = sc.nextInt(), n = sc.nextInt();\n        int[][] matrix = new int[m][n];\n\n        for (int i = 0; i < m; i++)\n            for (int j = 0; j < n; j++)\n                matrix[i][j] = sc.nextInt();\n\n        int target = sc.nextInt();\n        System.out.println(searchMatrix(matrix, target));\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "fa7e7e98cd730e9c7eb5c711c799f955e3e68a0a",
+        "created": "2025-07-11T05:58:28.952Z",
+        "updated": "2025-07-22T06:58:56.817Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qbwffc6",
+        "title": "Perform Large Exponentiation with Modular Constraints",
+        "description": "In secure communication protocols or cryptographic systems, large powers of numbers are often computed under modular arithmetic for encoding and decoding messages. You are tasked with computing an exponentiation operation with a huge exponent that cannot be represented using standard 32- or 64-bit integers. The exponent is instead provided as a list of its digits, and the operation must be performed modulo 1337.\r\n\r\nYou are given a positive integer a and a list of digits b, where b represents a very large exponent in base-10 digit format. Your task is to compute:\r\n`a^b mod 1337`\r\n* where `b` is the number formed by the digit list (not a regular integer due to potential size), and ^ denotes exponentiation.\r\n\r\n**Explanation:**\r\nThe exponent `b` can be very large (e.g., hundreds of digits), making normal exponentiation infeasible. You must use modular exponentiation combined with divide and conquer or recursive power reduction techniques.\r\nKey Properties Used:\r\n`(a^b) % m = ((a^(b1) % m) * (a^(b2) % m)) % m`\r\n**Use:**\r\n`a^[1,2,3] = a^123 = (a^100)^1 * (a^10)^2 * (a^1)^3`\r\n\r\n#### Input Format:\r\n* A single integer `a` (base)\r\n* A list of integers `b` representing digits of the exponent\r\n\r\n#### Output Format:\r\n* A single integer: the value of (a^b) % 1337\r\n\r\n#### Constraints:\r\n* 1 ≤ a ≤ 2³¹ - 1\r\n* 1 ≤ b.length ≤ 200\r\n* Each digit in b is between 0 and 9",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "medium",
+        "bloomTaxonomy": "apply",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "DAA ( Design Analysis & Algorithms)"
+        ],
+        "topics": [],
+        "subTopics": [
+          "Divide and Conquer"
+        ],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qbv4vjq",
+              "input": "2\n[1, 0]",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbvwnr3",
+              "input": "2\n[3]",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbvwp46",
+              "input": "2\n[1, 0, 0]",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbvwpvk",
+              "input": "2147483647\n[2, 0, 0]",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qbvwqe4",
+              "input": "7\n[2, 1]",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbrgp9k",
+              "input": "2\n[1,0]",
+              "output": "1024",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "b = [1, 0] → exponent = 10\n So 2^10 = 1024, and 1024 % 1337 = 1024"
+            },
+            {
+              "id": "43rbrhrm6",
+              "input": "2\n[3]",
+              "output": "8",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "2^3 = 8, and 8 % 1337 = 8"
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nconst int MOD = 1337;\n\n// Fast modular exponentiation\nint modPow(int a, int k) {\n    int result = 1;\n    a %= MOD;\n    for (int i = 0; i < k; ++i) {\n        result = (result * a) % MOD;\n    }\n    return result;\n}\n\n// Recursive function to handle large exponent vector\nint superPow(int a, vector<int>& b) {\n    if (b.empty()) return 1;\n\n    int lastDigit = b.back();\n    b.pop_back();\n\n    // a^b = (a^lastDigit) * (a^rest)^10\n    int part1 = modPow(superPow(a, b), 10);\n    int part2 = modPow(a, lastDigit);\n\n    return (part1 * part2) % MOD;\n}\n\nint main() {\n    int a;\n    cin >> a;\n\n    vector<int> b;\n    char ch;\n    while (cin >> ch) {\n        if (isdigit(ch)) {\n            b.push_back(ch - '0');  // Convert char digit to int\n        }\n    }\n\n    cout << superPow(a, b) << endl;\n    return 0;\n}\n",
+            "java": "import java.util.*;\n\npublic class SuperPowerCalculator {\n\n    private static final int MOD = 1337;\n\n    public int superPow(int a, List<Integer> b) {\n        if (b.isEmpty()) return 1;\n\n        int last = b.remove(b.size() - 1);\n        int part1 = modPow(superPow(a, b), 10);\n        int part2 = modPow(a, last);\n\n        return (part1 * part2) % MOD;\n    }\n\n    private int modPow(int a, int k) {\n        int result = 1;\n        a %= MOD;\n        for (int i = 0; i < k; i++) {\n            result = (result * a) % MOD;\n        }\n        return result;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int a = sc.nextInt();  // Read base\n\n        List<Integer> b = new ArrayList<>();\n        while (sc.hasNextInt()) {\n            b.add(sc.nextInt());  // Read exponent digits\n        }\n\n        SuperPowerCalculator calc = new SuperPowerCalculator();\n        System.out.println(calc.superPow(a, b));\n        sc.close();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "b15d177f20c8783468cd4d63cf194ed65ede9eec",
+        "created": "2025-07-11T06:27:43.810Z",
+        "updated": "2025-07-22T06:59:22.885Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qc3ycm7",
+        "title": "Generate Conflict-Free Sequences for Parallel Tasks",
+        "description": "In a multicore processing system, task batches are distributed such that their computed load (represented by array elements) must avoid forming **arithmetic midpoints**—which could cause **intermediate dependencies or collisions**. A system engineer is tasked with generating a load distribution where no value is the **average** of any two other values equidistant from it in position.\r\nYour job is to simulate such a distribution for a given batch size `n`.\r\n\r\nYou are required to generate a permutation of integers from 1 to n such that no triplet (i, k, j) with i < k < j satisfies the condition:\r\n`arr[k] * 2 == arr[i] + arr[j]`\r\nSuch a permutation is called a Beautiful Array. Given an integer n, return any beautiful array of length n.\r\n\r\n**Explanation:**\r\nA **Beautiful Array** avoids forming any arithmetic progression of length 3.\r\n* Key Observations:\r\n  *  We can construct the array recursively using divide and conquer.\r\n  *  If A is a beautiful array, then so is:\r\n      2 * A - 1 (odd indices),\r\n      2 * A (even indices),\r\n  * Then we concatenate both to form the next level.\r\n\r\n#### Input Format:\r\n* A single integer n (the number of elements in the desired array)\r\n\r\n#### Output Format:\r\n* A list of n integers forming a beautiful array\r\n\r\n#### Constraints:\r\n* 1 ≤ n ≤ 1000",
+        "explanation": "A **Beautiful Array** avoids forming any arithmetic progression of length 3.\n* Key Observations:\n  *  We can construct the array recursively using divide and conquer.\n  *  If A is a beautiful array, then so is:\n      2 * A - 1 (odd indices),\n      2 * A (even indices),\n  * Then we concatenate both to form the next level.",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "medium",
+        "bloomTaxonomy": "apply",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "DAA ( Design Analysis & Algorithms)"
+        ],
+        "topics": [],
+        "subTopics": [
+          "Divide and Conquer"
+        ],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qc3tmgn",
+              "input": "5",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qc3vmwf",
+              "input": "4",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qc3vnp3",
+              "input": "7",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qc3vnwn",
+              "input": "8",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qc3vp5b",
+              "input": "10",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbrm87c",
+              "input": "5",
+              "output": "[1, 3, 2, 5, 4]",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "In the output array:\n* No element is the average of any two other elements at symmetric positions.\n* For example, 3 is not the average of 1 and 5, 2 is not the average of 1 and 3, etc."
+            },
+            {
+              "id": "43rbrntc2",
+              "input": "4",
+              "output": "[2, 1, 4, 3]",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "Again, the sequence avoids any arithmetic triplet where the middle number is the average of the outer two."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\nusing namespace std;\n\nvector<int> beautifulArray(int n) {\n    vector<int> result = {1};\n    while (result.size() < n) {\n        vector<int> temp;\n        for (int x : result) {\n            if (x * 2 - 1 <= n)\n                temp.push_back(x * 2 - 1);  // Add odd numbers\n        }\n        for (int x : result) {\n            if (x * 2 <= n)\n                temp.push_back(x * 2);      // Add even numbers\n        }\n        result = temp;\n    }\n    return result;\n}\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> result = beautifulArray(n);\n    for (int num : result) {\n        cout << num << \" \";\n    }\n    cout << endl;\n\n    return 0;\n}\n",
+            "java": "import java.util.*;\n\npublic class BeautifulArrayGenerator {\n    public int[] beautifulArray(int n) {\n        List<Integer> result = new ArrayList<>();\n        result.add(1);\n        while (result.size() < n) {\n            List<Integer> temp = new ArrayList<>();\n            for (int x : result) {\n                if (x * 2 - 1 <= n) temp.add(x * 2 - 1);\n            }\n            for (int x : result) {\n                if (x * 2 <= n) temp.add(x * 2);\n            }\n            result = temp;\n        }\n\n        int[] finalArray = new int[n];\n        for (int i = 0; i < n; i++) {\n            finalArray[i] = result.get(i);\n        }\n        return finalArray;\n    }\npublic static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();  // Input size of array\n\n        BeautifulArrayGenerator generator = new BeautifulArrayGenerator();\n        int[] result = generator.beautifulArray(n);\n\n        for (int val : result) {\n            System.out.print(val + \" \");\n        }\n        System.out.println();\n        sc.close();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "b6aaa04de6610afeefed67d31adfdc4ca23706ca",
+        "created": "2025-07-11T07:52:35.437Z",
+        "updated": "2025-07-22T06:59:52.148Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qcdt9qp",
+        "title": "Construct the Silhouette View of Urban Infrastructure",
+        "description": "In a city planning simulation, buildings are visualized as blocks. A drone captures a panoramic horizontal scan of the city from left to right. The system must compute the changing outline of these buildings (i.e., the skyline), as seen from a distance, ignoring inner structures hidden behind taller buildings in front.\r\nYou are to implement an algorithm to output these visual \"height change\" points.\r\n\r\nYou're given a list of buildings in a city, where each building is represented by a triplet of integers [start, end, height]. Your task is to compute the skyline formed by these buildings.\r\nThe skyline is represented as a list of \"key points\" — points where the height of the outline changes — in the format: [x, height].\r\n\r\n**Explanation:**\r\nThe skyline consists of all critical points where the height changes due to:\r\n* Start of a building (rising edge)\r\n* End of a building (falling edge)\r\n\r\nTo solve:\r\n  * Convert each building into two events:\r\n    * A starting point (negative height for sorting priority)\r\n    * An ending point (positive height)\r\n  * Sort all events:\r\n    * By x-coordinate\r\n    * If x is the same:\r\n      * Process start before end\r\n      * Taller before shorter for starts\r\n  * Shorter before taller for ends\r\nUse a max-heap to maintain current active building heights\r\n\r\n#### Input Format:\r\n* An integer n representing the number of buildings\r\n* Followed by n lines each containing 3 integers: start, end, and height of each building\r\n\r\n#### Output Format:\r\n* A list of key points [x, height] where the skyline height changes\r\n\r\n#### Constraints:\r\n\r\n* 1 ≤ n ≤ 10⁴\r\n* 0 ≤ start < end ≤ 2³¹ - 1\r\n* 1 ≤ height ≤ 10⁴",
+        "explanation": "The skyline consists of all critical points where the height changes due to:\n* Start of a building (rising edge)\n* End of a building (falling edge)\n\nTo solve:\n  * Convert each building into two events:\n    * A starting point (negative height for sorting priority)\n    * An ending point (positive height)\n  * Sort all events:\n    * By x-coordinate\n    * If x is the same:\n      * Process start before end\n      * Taller before shorter for starts\n  * Shorter before taller for ends\nUse a max-heap to maintain current active building heights",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "hard",
+        "bloomTaxonomy": "analyze",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "DAA ( Design Analysis & Algorithms)"
+        ],
+        "topics": [],
+        "subTopics": [
+          "Divide and Conquer"
+        ],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qccqrxv",
+              "input": "3\n2 9 10\n3 7 15\n5 12 12",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcdmn4w",
+              "input": "3\n2 9 10\n3 7 15\n5 12 12",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcdmnek",
+              "input": "2\n1 5 11\n2 6 6",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcdmp5d",
+              "input": "4\n1 2 1\n1 2 2\n1 2 3\n1 2 4",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcdmpv3",
+              "input": "3\n1 3 4\n3 4 4\n4 5 4",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbrsmzd",
+              "input": "3\n2 9 10\n3 7 15\n5 12 12",
+              "output": "2 10\n3 15\n7 12\n12 0",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "* Building 1 starts at 2 with height 10\n* Building 2 starts at 3 and overtakes with height 15\n* At 7, building 2 ends and next visible is height 12 (from building 3)\n* At 12, building 3 ends and skyline returns to 0"
+            },
+            {
+              "id": "43rbrtvj4",
+              "input": "2\n0 2 3\n2 5 3",
+              "output": "0 3\n5 0",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "* First building goes from 0 to 2, height 3\n* Second building is same height and touches 2–5, making skyline flat at height 3 until it ends"
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "java": "import java.util.*;\n\npublic class SkylineSolver {\n\n    public List<List<Integer>> getSkyline(int[][] buildings) {\n        List<int[]> events = new ArrayList<>();\n\n        // Create events: entering with -height, exiting with +height\n        for (int[] b : buildings) {\n            events.add(new int[]{b[0], -b[2]}); // building enters\n            events.add(new int[]{b[1], b[2]});  // building exits\n        }\n\n        // Sort events by x-coordinate, then by height\n        events.sort((a, b) -> {\n            if (a[0] != b[0]) return Integer.compare(a[0], b[0]);\n            return Integer.compare(a[1], b[1]);\n        });\n\n        // Max-heap to track current heights\n        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());\n        Map<Integer, Integer> heightCount = new HashMap<>();\n\n        pq.add(0);\n        heightCount.put(0, 1);\n\n        int prevHeight = 0;\n        List<List<Integer>> result = new ArrayList<>();\n\n        for (int[] e : events) {\n            int x = e[0], h = e[1];\n\n            if (h < 0) {\n                // Entering building\n                pq.add(-h);\n                heightCount.put(-h, heightCount.getOrDefault(-h, 0) + 1);\n            } else {\n                // Exiting building\n                heightCount.put(h, heightCount.get(h) - 1);\n            }\n\n            // Clean up the top of the heap\n            while (!pq.isEmpty() && heightCount.getOrDefault(pq.peek(), 0) == 0) {\n                pq.poll();\n            }\n\n            int currHeight = pq.peek();\n            if (currHeight != prevHeight) {\n                result.add(Arrays.asList(x, currHeight));\n                prevHeight = currHeight;\n            }\n        }\n\n        return result;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int n = sc.nextInt(); // number of buildings\n        int[][] buildings = new int[n][3];\n\n        for (int i = 0; i < n; i++) {\n            buildings[i][0] = sc.nextInt(); // Li\n            buildings[i][1] = sc.nextInt(); // Ri\n            buildings[i][2] = sc.nextInt(); // Hi\n        }\n\n        SkylineSolver solver = new SkylineSolver();\n        List<List<Integer>> skyline = solver.getSkyline(buildings);\n\n        for (List<Integer> point : skyline) {\n            System.out.println(point.get(0) + \" \" + point.get(1));\n        }\n\n        sc.close();\n    }\n}\n",
+            "cpp": "#include <iostream>\n#include <vector>\n#include <set>\n#include <algorithm>\nusing namespace std;\n\nvector<vector<int>> getSkyline(vector<vector<int>>& buildings) {\n    vector<pair<int, int>> events;\n    \n    // Create events: entering = negative height, exiting = positive height\n    for (auto& b : buildings) {\n        events.emplace_back(b[0], -b[2]); // entering\n        events.emplace_back(b[1], b[2]);  // exiting\n    }\n\n    // Sort events by x-coordinate.\n    // If tie: process entering before exiting (negative height comes first)\n    sort(events.begin(), events.end());\n\n    multiset<int> heights = {0}; // Ground level\n    int prevHeight = 0;\n    vector<vector<int>> result;\n\n    for (auto& [x, h] : events) {\n        if (h < 0) {\n            heights.insert(-h); // Add new height\n        } else {\n            heights.erase(heights.find(h)); // Remove height\n        }\n\n        int currHeight = *heights.rbegin(); // Current max height\n        if (currHeight != prevHeight) {\n            result.push_back({x, currHeight});\n            prevHeight = currHeight;\n        }\n    }\n\n    return result;\n}\n\nint main() {\n    int n;\n    cin >> n; // Number of buildings\n\n    vector<vector<int>> buildings(n, vector<int>(3));\n    for (int i = 0; i < n; ++i) {\n        cin >> buildings[i][0] >> buildings[i][1] >> buildings[i][2]; // left, right, height\n    }\n\n    vector<vector<int>> skyline = getSkyline(buildings);\n\n    for (auto& point : skyline) {\n        cout << point[0] << \" \" << point[1] << endl;\n    }\n\n    return 0;\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "9e2c67a38372e073704030a15a0ff11da9384187",
+        "created": "2025-07-11T10:23:58.917Z",
+        "updated": "2025-07-22T07:00:24.301Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qcemqkg",
+        "title": "Detect Inverse Value Relationships in Data Streams",
+        "description": "In a real-time sensor data monitoring system, two sequential values a and b are considered inversely significant if the first is more than twice the second. The system requires you to identify how many such critical inverse relationships exist to trigger alerts or perform calibrations.\r\nGiven the continuous stream of readings, compute the number of such alert-triggering inverse value pairs.\r\n\r\nYou are given an integer array representing a sequence of observed measurements. Your task is to count the number of **reverse pairs** in the array.\r\nA reverse pair is defined as a pair of indices (i, j) such that:\r\n`0 ≤ i < j < nums.length and nums[i] > 2 * nums[j]`\r\nYour objective is to count all such valid **reverse pairs** in the array.\r\n\r\n**Explanation:**\r\nThe brute-force solution (O(n²)) is inefficient for large arrays. Instead, use a **divide and conquer** approach similar to **merge sort**. During merging:\r\n* Count valid pairs where the condition nums[i] > 2 * nums[j] is met between the left and right subarrays.\r\n\r\nThis ensures an overall time complexity of **O(n log n)**.\r\n\r\n#### Input Format:\r\n* A single integer n representing the number of elements.\r\n* A line of n space-separated integers representing the array.\r\n\r\n#### Output Format:\r\n* A single integer indicating the count of reverse pairs in the array.\r\n\r\n#### Constraints:\r\n* 1 ≤ n ≤ 5 × 10⁴\r\n* -2³¹ ≤ nums[i] ≤ 2³¹ - 1",
+        "explanation": "The brute-force solution (O(n²)) is inefficient for large arrays. Instead, use a **divide and conquer** approach similar to **merge sort**. During merging:\n* Count valid pairs where the condition nums[i] > 2 * nums[j] is met between the left and right subarrays.\n\nThis ensures an overall time complexity of **O(n log n)**.",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "hard",
+        "bloomTaxonomy": "analyze",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "Competitive Coding"
+        ],
+        "topics": [],
+        "subTopics": [],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qce8t42",
+              "input": "5\n1 3 2 3 1",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qceb9rp",
+              "input": "5\n2 4 3 5 1",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qceb9yc",
+              "input": "6\n10 5 2 6 1 3",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qceba93",
+              "input": "4\n1 2 3 4",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcebchc",
+              "input": "6\n5 4 3 2 1 0",
+              "output": "",
+              "difficulty": "hard",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbsbgnk",
+              "input": "5\n1 3 2 3 1",
+              "output": "2",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "There are 2 reverse pairs:\n* (1, 4) → 3 > 2 * 1\n* (3, 4) → 3 > 2 * 1"
+            },
+            {
+              "id": "43rbscqqu",
+              "input": "5\n2 4 3 5 1",
+              "output": "3",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "The reverse pairs are:\n* (1, 4) → 4 > 2 * 1\n* (2, 4) → 3 > 2 * 1\n* (3, 4) → 5 > 2 * 1"
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\n// Modified merge sort to count reverse pairs\nint mergeSort(vector<int>& nums, int left, int right) {\n    if (left >= right) return 0;\n\n    int mid = left + (right - left) / 2;\n    int count = mergeSort(nums, left, mid) + mergeSort(nums, mid + 1, right);\n\n    int j = mid + 1;\n    for (int i = left; i <= mid; ++i) {\n        while (j <= right && (long)nums[i] > 2LL * nums[j])\n            j++;\n        count += (j - mid - 1);\n    }\n\n    // Merge the sorted halves\n    inplace_merge(nums.begin() + left, nums.begin() + mid + 1, nums.begin() + right + 1);\n    return count;\n}\n\nint reversePairs(vector<int>& nums) {\n    return mergeSort(nums, 0, nums.size() - 1);\n}\n\nint main() {\n    int n;\n    cin >> n;  // Number of elements\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; ++i)\n        cin >> nums[i];\n\n    cout << reversePairs(nums) << endl;\n    return 0;\n}\n",
+            "java": "import java.util.*;public class ReversePairCounter {\n    public int reversePairs(int[] nums) {\n        return mergeSort(nums, 0, nums.length - 1);\n    }\n\n    private int mergeSort(int[] nums, int left, int right) {\n        if (left >= right) return 0;\n\n        int mid = left + (right - left) / 2;\n        int count = mergeSort(nums, left, mid) + mergeSort(nums, mid + 1, right);\n\n        int j = mid + 1;\n        for (int i = left; i <= mid; i++) {\n            while (j <= right && (long)nums[i] > 2L * nums[j]) {\n                j++;\n            }\n            count += j - (mid + 1);\n        }\n\n        merge(nums, left, mid, right);\n        return count;\n    }\n\n    private void merge(int[] nums, int left, int mid, int right) {\n        List<Integer> temp = new ArrayList<>();\n        int i = left, j = mid + 1;\n\n        while (i <= mid && j <= right) {\n            if (nums[i] <= nums[j]) temp.add(nums[i++]);\n            else temp.add(nums[j++]);\n        }\n        while (i <= mid) temp.add(nums[i++]);\n        while (j <= right) temp.add(nums[j++]);\n\n        for (int k = left; k <= right; k++) {\n            nums[k] = temp.get(k - left);\n        }\n    }\n public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input: First an integer n (size of array)\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n\n        // Input: n space-separated integers\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        ReversePairCounter rpc = new ReversePairCounter();\n        System.out.println(rpc.reversePairs(nums));  // Output: number of reverse pairs\n\n        sc.close();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "1d3876ffc2073e037479be37cac21c422abd8b6b",
+        "created": "2025-07-11T10:36:37.016Z",
+        "updated": "2025-07-22T07:01:07.521Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qcff63v",
+        "title": "Determine the Longest Ascending Trend in Sequential Data",
+        "description": "In a data trend analysis system, the input stream contains time-ordered metrics from various sensors or user activities. Analysts are interested in identifying the longest segment where values consistently increase. This helps in determining patterns of growth or improvement.\r\nYour role is to implement an efficient solution that determines the maximum length of such an increasing trend in the dataset.\r\n\r\nYou are given an array of integers that represent a chronological stream of observations. Your task is to identify the length of the longest strictly increasing subsequence in this array.\r\nA subsequence is a sequence derived by deleting some or no elements without changing the relative order of the remaining elements.\r\n\r\n**Explanation:**\r\nThere are two commonly used approaches:\r\nDynamic Programming (O(n²)):\r\n* For each index, check all previous elements and update the LIS ending at that index.\r\n* Binary Search + Greedy (O(n log n)):\r\nMaintain a tail array where tail[i] is the smallest possible tail value of an increasing subsequence of length i+1.\r\n\r\n#### Input Format:\r\n* A single integer n indicating the number of elements in the sequence.\r\n* A line of n space-separated integers.\r\n\r\n#### Output Format:\r\n* A single integer: the length of the longest increasing subsequence.\r\n\r\n#### Constraints:\r\n* 1 ≤ n ≤ 2500\r\n* -10⁴ ≤ nums[i] ≤ 10⁴",
+        "explanation": "There are two commonly used approaches:\nDynamic Programming (O(n²)):\n* For each index, check all previous elements and update the LIS ending at that index.\n* Binary Search + Greedy (O(n log n)):\nMaintain a tail array where tail[i] is the smallest possible tail value of an increasing subsequence of length i+1.",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "medium",
+        "bloomTaxonomy": "analyze",
+        "tags": [
+          "cu-cc-2025",
+          "practice-question"
+        ],
+        "subjects": [
+          "Competitive Coding"
+        ],
+        "topics": [],
+        "subTopics": [],
+        "companies": [],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "cpp",
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qcewdum",
+              "input": "6\n10 9 2 5 3 7",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcexzcq",
+              "input": "8\n0 1 0 3 2 3 4 5",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcey364",
+              "input": "5\n5 4 3 2 1",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcezf5y",
+              "input": "7\n1 3 6 7 9 4 10",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcezhcq",
+              "input": "10\n1 2 4 3 5 6 2 8 7 9",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43rbsgva3",
+              "input": "6\n10 9 2 5 3 7",
+              "output": "3",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "The longest increasing subsequence is: [2, 5, 7]\n Hence, length = 3"
+            },
+            {
+              "id": "43rbsjusm",
+              "input": "8\n0 1 0 3 2 3 4 5",
+              "output": "6",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "Longest increasing subsequence: [0, 1, 2, 3, 4, 5]\n Hence, length = 6"
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "cpp": "#include <iostream>\n#include <vector>\n#include <algorithm> // for lower_bound\nusing namespace std;\n\nint lengthOfLIS(vector<int>& nums) {\n    vector<int> tail; // stores the smallest tail of all increasing subsequences of various lengths\n    for (int num : nums) {\n        auto it = lower_bound(tail.begin(), tail.end(), num); // binary search\n        if (it == tail.end()) {\n            tail.push_back(num); // num is greater than all elements in tail\n        } else {\n            *it = num; // replace the first element >= num\n        }\n    }\n    return tail.size();\n}\n\nint main() {\n    int n;\n    cin >> n;  // Number of elements\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; ++i)\n        cin >> nums[i];\n\n    cout << lengthOfLIS(nums) << endl;\n    return 0;\n}\n",
+            "java": "import java.util.*;\npublic class LISFinder {\n    public int lengthOfLIS(int[] nums) {\n        List<Integer> tail = new ArrayList<>();\n        for (int num : nums) {\n            int idx = Collections.binarySearch(tail, num);\n            if (idx < 0) idx = -idx - 1;\n            if (idx == tail.size()) {\n                tail.add(num);\n            } else {\n                tail.set(idx, num);\n            }\n        }\n        return tail.size();\n    }\n public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input: first an integer n\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n\n        // Input: array of size n\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        LISFinder finder = new LISFinder();\n        System.out.println(finder.lengthOfLIS(nums)); // Output: LIS length\n\n        sc.close();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "42vxd5kz7",
+          "name": "Shahbaj Alam"
+        },
+        "createdBy": {
+          "_id": "3zasqh492",
+          "name": "Akila Rengarajan"
+        },
+        "hash": "ee6805dbe919b592e87a06f63d0eafe63ee3051b",
+        "created": "2025-07-11T10:49:14.761Z",
+        "updated": "2025-07-22T07:01:36.461Z",
         "subType": "programming"
       }
     ],
     "labMode": true,
-    "subjects": [
-      "PBLJ"
-    ],
     "updatedBy": {
-      "_id": "4275k4vp6",
-      "name": "MEGHANA KAVALA"
+      "_id": "3yxvzuftd",
+      "name": "Rohith Kokkirala"
     },
     "createdBy": {
       "_id": "3zasqh492",
       "name": "Akila Rengarajan"
     },
-    "created": "2025-07-14T11:42:22.137Z",
-    "updated": "2025-07-30T11:27:34.075Z",
+    "created": "2025-07-11T12:26:53.726Z",
+    "updated": "2025-07-17T13:44:51.398Z",
+    "subjects": [
+      "Competitive Coding"
+    ],
     "permission": {
       "organizations": [],
       "branches": [
@@ -419,18 +1316,52 @@
         "43qxb3c33"
       ]
     },
-    "questionProgress": [],
+    "questionProgress": [
+      {
+        "_id": "43qcnsttr_43qbruhya_43qejdgev",
+        "created": "2025-08-07T06:56:38.588Z",
+        "question": {
+          "_id": "43qbruhya"
+        },
+        "solution": {
+          "codingSolution": {
+            "language": "C++",
+            "code": "#include<iostream>"
+          }
+        },
+        "submissionsCount": 1,
+        "test": {
+          "_id": "43qcnsttr"
+        },
+        "testCaseVsResult": {
+          "43qbrpvxw": false,
+          "43qbrs8ss": false,
+          "43qbrs866": false,
+          "43rbkfzdj": false,
+          "43rbketag": false,
+          "43qbrs98c": false,
+          "43qbrsaaw": false
+        },
+        "timeSpent": 0,
+        "updated": "2025-08-07T06:56:38.588Z",
+        "user": {
+          "_id": "43qejdgev"
+        },
+        "userEnvData": null
+      }
+    ],
     "testProgress": {
-      "_id": "43qnmjrus_43qejdgev",
-      "created": "2025-08-06T19:05:14.699Z",
-      "lastOpened": "2025-08-07T14:26:44.979Z",
+      "_id": "43qcnsttr_43qejdgev",
+      "created": "2025-08-07T06:50:10.446Z",
+      "lastOpened": "2025-08-07T14:42:44.393Z",
       "problemIdsOrder": null,
       "test": {
-        "_id": "43qnmjrus"
+        "_id": "43qcnsttr"
       },
       "user": {
         "_id": "43qejdgev"
-      }
+      },
+      "updated": "2025-08-07T06:56:38.595Z"
     }
   }
 }

@@ -2,7 +2,7 @@ from ctypes.util import test
 import tkinter as tk
 import re
 import json
-from api_client import fetch_test_questions
+from .api_client import fetch_test_questions
 
 def show_code_editor_window(test_id_value,practice, jwt_token):
     editor_win = tk.Toplevel()
@@ -158,7 +158,7 @@ def show_code_editor_window(test_id_value,practice, jwt_token):
     result_label = tk.Label(editor_win, text="", font=("Arial", 11, "bold"))
     result_label.pack(pady=5)
 
-    from api_client import submit_test_solution
+    from .api_client import submit_test_solution
     def submit_code():
         code = code_text.get("1.0", tk.END).strip()
         if not code:

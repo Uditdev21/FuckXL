@@ -1,4 +1,4 @@
-from courses_ui import fetch_cu_courses, show_courses_window
+from .courses_ui import fetch_cu_courses, show_courses_window
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 
