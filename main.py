@@ -1,6 +1,4 @@
-def main():
-    print("Hello from fuckxl!")
-
+from ui.mainwindow import main
 
 if __name__ == "__main__":
     main()

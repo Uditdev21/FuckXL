@@ -1,29 +1,34 @@
 {
-    "status": "success",
-    "data": {
-        "_id": "43qmss6c3_43qqzzsz4_43qejdgev",
-        "created": "2025-08-05T04:05:04.969Z",
-        "question": {
-            "_id": "43qqzzsz4"
-        },
-        "test": {
-            "_id": "43qmss6c3"
-        },
-        "timeSpent": 650,
-        "updated": "2025-08-05T18:09:01.720Z",
-        "user": {
-            "_id": "43qejdgev"
-        },
-        "solution": {
-            "codingSolution": {
-                "language": "sql",
-                "code": "test code run"
-            }
-        },
-        "submissionsCount": 4,
-        "testCaseVsResult": {
-            "43qqzqz9u": false
-        },
-        "userEnvData": null
-    }
+  "status": "success",
+  "data": {
+    "_id": "43qnmjrus_43qcs5e2k_43qejdgev",
+    "created": "2025-08-07T14:27:07.421Z",
+    "question": {
+      "_id": "43qcs5e2k"
+    },
+    "solution": {
+      "codingSolution": {
+        "language": "java",
+        "code": "import java.util.Scanner;\n\nclass Product {\n    private int id;\n    private int nameCode;\n    private double price;\n\n    public Product(int id, int nameCode, double price) {\n        this.id = id;\n        this.nameCode = nameCode;\n        this.price = price;\n    }\n\n    public void displayProductDetails() {\n        System.out.println(\"Product ID: \" + this.id);\n        System.out.println(\"Product Name Code: \" + this.nameCode);\n        System.out.printf(\"Product Price: ₹%.1f\\n\", this.price);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        int productId = scanner.nextInt();\n        int productNameCode = scanner.nextInt();\n        double productPrice = scanner.nextDouble();\n\n        Product product = new Product(productId, productNameCode, productPrice);\n\n        product.displayProductDetails();\n\n        scanner.close();\n    }\n}"
+      }
+    },
+    "submissionsCount": 1,
+    "test": {
+      "_id": "43qnmjrus"
+    },
+    "testCaseVsResult": {
+      "43re7ydsr": true,
+      "43qcrvzz8": true,
+      "43qcrtuz5": true,
+      "43qcrxpry": false,
+      "43qcs23bn": true,
+      "43qcs3epg": true
+    },
+    "timeSpent": 0,
+    "updated": "2025-08-07T14:27:07.421Z",
+    "user": {
+      "_id": "43qejdgev"
+    },
+    "userEnvData": null
+  }
 }

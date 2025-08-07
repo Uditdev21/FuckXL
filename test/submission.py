@@ -58,10 +58,10 @@ def save_json_to_file(data, filename="response.json"):
 
 # --- Configuration ---
 # Replace this with your actual JWT token
-YOUR_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0M3FlamRnZXYiLCJlbWFpbCI6IjIzYmNzMTA2NzhAY3VjaGQuaW4iLCJpYXQiOjE3NTQ0MTMzNDd9.uUJYWu_gTpkQKOHh7wWd3gkIlMYfabjKbCjzrrcGWRU"
+YOUR_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0M3FlamRnZXYiLCJlbWFpbCI6IjIzYmNzMTA2NzhAY3VjaGQuaW4iLCJpYXQiOjE3NTQ0NTk3NTJ9.OXlVteIjqmWeRfRtvZk_jyr3Y4xJExiGpGHWYS2SPmk"
 
 # The API endpoint for lab data (this will be called first)
-LAB_API_URL = "https://bytexl.app/api/lab/43qnemdge"
+LAB_API_URL = "https://bytexl.app/api/lab/43qnf5nk3"
 
 # Base URL for tests data (the ID will be appended dynamically)
 TESTS_API_BASE_URL = "https://bytexl.app/api/tests/"

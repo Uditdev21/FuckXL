@@ -1,0 +1,436 @@
+{
+  "status": "success",
+  "data": {
+    "_id": "43qnmjrus",
+    "title": "CU - PBLJ - Experiment 1.2 Lab",
+    "description": "Lab Programs",
+    "tags": [
+      "cu-fullstackdev-2025",
+      "Practice Questions"
+    ],
+    "status": "published",
+    "startDate": "",
+    "endDate": "",
+    "timeLimit": 0,
+    "showInstructionsOnStart": false,
+    "shuffleQuestions": false,
+    "captureUserImages": false,
+    "recordSession": false,
+    "forceFullScreen": false,
+    "captureTabSwitches": false,
+    "closeAfterNumberOfTabSwitches": 0,
+    "showReportAfterTest": false,
+    "sendReportViaEmail": false,
+    "sendEmailReportAt": "",
+    "questions": [
+      {
+        "_id": "43qcs5e2k",
+        "title": "Product Class with Constructor & Display",
+        "description": "You are developing a system for a store where products are stored with numeric codes for name and ID. The goal is to create a Product class that can initialize and display product details using numeric input only\n\n**Create a Java class named Product with the following numeric attributes:**\n* id (int) — unique identifier for the product\n* nameCode (int) — numeric representation of the product name\n* price (double) — product price\n* Implement a constructor to initialize these attributes, and a method displayProductDetails() to print them.\n\n#### Input Format\n- Product ID (integer)\n- Product Name Code (integer)\n- Product Price (double)\n\n#### Output Format\n- **Print the product details:**\n     - Product ID \n     - Product Name Code\n     - Product Price\n\n#### Constraints\n- ID > 0\n- Price ≥ 0\n- Name Code is a numeric representation (simulated name lookup)",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "easy",
+        "bloomTaxonomy": "",
+        "tags": [
+          "OOPS",
+          "Java Basics",
+          "Classes & Objects",
+          "Experiment 1.2"
+        ],
+        "subjects": [
+          "java"
+        ],
+        "topics": [],
+        "subTopics": [],
+        "companies": [
+          "TCS",
+          "Wipro",
+          "Infosys",
+          "Tech Mahindra"
+        ],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qcrtuz5",
+              "input": "200\n3456\n18000.50",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcrvzz8",
+              "input": "301\n7654\n2500",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcrxpry",
+              "input": "450\n9001\n7999.99",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcs23bn",
+              "input": "111\n5555\n1500 ",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43qcs3epg",
+              "input": "890\n7777\n12000.00",
+              "output": "",
+              "difficulty": "easy",
+              "visibility": "private"
+            },
+            {
+              "id": "43re7ydsr",
+              "input": "101  \n2001  \n55000 ",
+              "output": "Product ID: 101\nProduct Name Code: 2001\nProduct Price: ₹55000.0",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "**Product ID:** 101 — This is the unique ID assigned to the product.\n**Product Name Code:** 2001 — This numeric code acts as a placeholder for the product's name in the system (like a code for \"Laptop\" or \"TV\").\n**Product Price**: ₹55000.0 — This shows the product’s price; printed as a double, so it includes a decimal point."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "java": "import java.util.Scanner;\n\nclass Product {\n    private int id;\n    private int nameCode;\n    private double price;\n\n    // Constructor\n    public Product(int id, int nameCode, double price) {\n        this.id = id;\n        this.nameCode = nameCode;\n        this.price = price;\n    }\n\n    // Method to display product details\n    public void displayProductDetails() {\n        System.out.println(\"Product ID: \" + id);\n        System.out.println(\"Product Name Code: \" + nameCode);\n        System.out.println(\"Product Price: ₹\" + price);\n    }\n}\n\npublic class ProductDemo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Reading numeric inputs\n        int id = sc.nextInt();\n        int nameCode = sc.nextInt();\n        double price = sc.nextDouble();\n\n        Product product = new Product(id, nameCode, price);\n        product.displayProductDetails();\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "43375cmu4",
+          "name": "Chetan Garg"
+        },
+        "createdBy": {
+          "_id": "42822rb2h",
+          "name": "Reshma"
+        },
+        "hash": "98f818acb3d6f37d6d3fcd76dcdf5548925be09c",
+        "created": "2025-07-11T13:18:19.709Z",
+        "updated": "2025-07-29T09:44:31.138Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qczmv76",
+        "title": "Library Management System  using Inheritance",
+        "description": "You are developing a basic Library Management System to keep track of books. Each book has an ID, title (represented using numeric code), and availability status. The system allows you to display book details and check books in and out. Use inheritance to extend a base LibraryItem class.\r\n\r\n**Create a superclass LibraryItem with the following attributes:**\r\n- itemId (int)\r\n- titleCode (int) (a number that represents the book title)\r\n- available (boolean)\r\n\r\n**Then create a subclass Book that extends LibraryItem and includes methods to:**\r\n- Display book details\r\n- Check out a book (mark unavailable)\r\n- Return a book (mark available)\r\n\r\n#### Input Format\r\n\r\n* An integer representing the Book ID (itemId)\r\n* An integer representing the Title Code (titleCode)\r\n* An integer representing Availability (1 = available, 0 = not available)\r\n\r\n**One or more integers representing operations (each on a new line or space-separated):**\r\n\r\n* 1 → Check out\r\n* 2 → Return\r\n* 3 → Display Details\r\n\r\nNote: The input terminates when no more integers are available (EOF).\r\n\r\n#### Output Format\r\nAfter each operation, output as follows:\r\n**For Checkout:**\r\n\r\n* If book is available: \"Book Checked Out Successfully.\"\r\n* If already checked out: \"Already checked out.\"\r\n\r\n**For Return:**\r\n\r\n* If book is not available: \"Book Returned Successfully.\"\r\n* If already available: \"Already available.\"\r\n\r\n**For Display:**\r\n\r\n* Book ID: <itemId>\r\n* Title Code: <titleCode>\r\n* Available: <true/false>\r\n\r\nFor any invalid operation: \"Invalid operation.\"\r\n\r\n#### Constraints\r\n\r\n* itemId > 0\r\n* titleCode > 0\r\n* availability is either 1 (true) or 0 (false)\r\n* Operation codes must be integers among {1, 2, 3}\r\n* All inputs are integers only\r\n* Maximum of 100 operations can be assumed for normal usage",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "easy",
+        "bloomTaxonomy": "",
+        "tags": [
+          "Java",
+          "OOP",
+          "Inheritance",
+          "Classes & Objects",
+          "Experiment 1.2"
+        ],
+        "subjects": [
+          "java"
+        ],
+        "topics": [],
+        "subTopics": [],
+        "companies": [
+          "TCS",
+          "Capgemini",
+          "Infosys",
+          "HCL"
+        ],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qcz9ujn",
+              "input": "2002\n999\n1\n1\n3  ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qczbpht",
+              "input": "3003\n777\n0\n2\n3",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qczdmkx",
+              "input": "4004\n888\n1\n1\n1\n3 ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qczgnfg",
+              "input": "1234\n333\n1\n3  ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qczhvsq",
+              "input": "1010\n101\n0\n1\n3  ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43re865be",
+              "input": "1001  \n501  \n1  \n1  \n3 ",
+              "output": "Book Checked Out Successfully.\nBook ID: 1001\nTitle Code: 501\nAvailable: false",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "- The book with ID 1001 and title code 501 was initially available. \n- After performing a checkout, it became unavailable. \n- Then, the display operation showed the updated details with availability marked as false."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "java": "import java.util.Scanner;\n\n// Base class\nclass LibraryItem {\n    protected int itemId;\n    protected int titleCode;\n    protected boolean available;\n\n    public LibraryItem(int itemId, int titleCode, boolean available) {\n        this.itemId = itemId;\n        this.titleCode = titleCode;\n        this.available = available;\n    }\n\n    public void displayDetails() {\n        System.out.println(\"Book ID: \" + itemId);\n        System.out.println(\"Title Code: \" + titleCode);\n        System.out.println(\"Available: \" + available);\n    }\n}\n\n// Subclass\nclass Book extends LibraryItem {\n\n    public Book(int itemId, int titleCode, boolean available) {\n        super(itemId, titleCode, available);\n    }\n\n    public void checkOut() {\n        if (available) {\n            available = false;\n            System.out.println(\"Book Checked Out Successfully.\");\n        } else {\n            System.out.println(\"Already checked out.\");\n        }\n    }\n\n    public void returnBook() {\n        if (!available) {\n            available = true;\n            System.out.println(\"Book Returned Successfully.\");\n        } else {\n            System.out.println(\"Already available.\");\n        }\n    }\n}\n\npublic class LibrarySystem {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input item details\n        int id = sc.nextInt();\n        int titleCode = sc.nextInt();\n        int availFlag = sc.nextInt(); // 1 for true, 0 for false\n\n        Book book = new Book(id, titleCode, availFlag == 1);\n\n        // Perform operations\n        while (sc.hasNextInt()) {\n            int operation = sc.nextInt();\n            if (operation == 1) {\n                book.checkOut();\n            } else if (operation == 2) {\n                book.returnBook();\n            } else if (operation == 3) {\n                book.displayDetails();\n            } else {\n                System.out.println(\"Invalid operation.\");\n            }\n        }\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": true,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "4275k4vp6",
+          "name": "MEGHANA KAVALA"
+        },
+        "createdBy": {
+          "_id": "42822rb2h",
+          "name": "Reshma"
+        },
+        "hash": "03400b1593da9b3ad8ee37d8dbfe6935b099a683",
+        "created": "2025-07-11T15:13:44.817Z",
+        "updated": "2025-07-30T11:27:03.211Z",
+        "subType": "programming"
+      },
+      {
+        "_id": "43qd2qsdh",
+        "title": "Student Information System using Abstraction and Inheritance",
+        "description": "Educational institutions often manage different types of individuals — students, teachers, etc. They may share some basic information (like name and age), but also have role-specific attributes. You are asked to create a system that uses abstraction to generalize common behavior and inheritance to differentiate student and teacher details.\n\n**Create an abstract class Person with the following attributes:**\n- name (String)\n- age (int)\n\n**And the method:**\n- displayDetails() — abstract method\n\n**Then create two derived classes:**\n- Student (with additional attribute: rollNumber - int)\n- Teacher (with additional attribute: subjectCode - int)\n\nOverride displayDetails() in both classes and display all relevant information.\n\n#### Input Format\n- Person type (1 for Student, 2 for Teacher)\n- Name (String, assume as a single word or hardcoded for simplicity)\n- Age (int)\n- Roll Number (int) for Student OR Subject Code (int) for Teacher\n\n#### Output Format\n- Print details of Student or Teacher using the overridden method.\n\n#### Constraints\n- Age must be a positive number\n- Roll Number and Subject Code must be integers\n- Name should be treated as a single-word string",
+        "explanation": "",
+        "score": 5,
+        "type": "coding",
+        "difficulty": "easy",
+        "bloomTaxonomy": "understand",
+        "tags": [
+          "Java",
+          "OOp",
+          "Abstraction",
+          "Inheritance",
+          "Experiment 1.2"
+        ],
+        "subjects": [
+          "java"
+        ],
+        "topics": [],
+        "subTopics": [],
+        "companies": [
+          "Infosys",
+          "TCS",
+          "Wipro",
+          "Accenture"
+        ],
+        "status": "published",
+        "submit": null,
+        "codeOptions": {
+          "supportedLanguages": [
+            "java"
+          ],
+          "testCases": [
+            {
+              "id": "43qd26ekg",
+              "input": "1\nBob\n18\n1023",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qd2bvca",
+              "input": "2\nMeena\n35\n501 ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qd2crse",
+              "input": "2\nArjun\n45\n888 ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qd2ds9h",
+              "input": "1\nKiran\n22\n3045  ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43qd2eyem",
+              "input": "2\nRavi\n50\n110 ",
+              "output": "",
+              "difficulty": "medium",
+              "visibility": "private"
+            },
+            {
+              "id": "43re88s4b",
+              "input": "1  \nAlice  \n20  \n1001 ",
+              "output": "Student Details:\nName: Alice\nAge: 20\nRoll Number: 1001",
+              "difficulty": "easy",
+              "visibility": "public",
+              "explanation": "- A student named Alice, aged 20, with roll number 1001 is created. \n- The overridden method displays these details as student information."
+            }
+          ],
+          "preloads": {
+            "c": "#include <stdio.h>\n\nint main()\n{\n    char input[50];\n    scanf(\"%s\", &input);\n    printf(\"input: %s\" , input);\n    return 0;\n}",
+            "cpp": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\nint main() \n{\n    string input;\n    getline (cin, input);\n    cout << \"input: \" << input;\n    return 0;\n}",
+            "java": "",
+            "python": "import sys\n\ninput = sys.stdin.readline()\nprint(\"input: \"+ input)",
+            "javascript": "const fs = require('fs');\n\nconst input = fs.readFileSync(0, 'utf-8').split('\\n');\nconsole.log(\"input: \" + input[0]);",
+            "sql": "SELECT * FROM users;"
+          },
+          "codeSolutions": {
+            "java": "import java.util.Scanner;\n\n// Abstract class\nabstract class Person {\n    protected String name;\n    protected int age;\n\n    public Person(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n\n    // Abstract method\n    public abstract void displayDetails();\n}\n\n// Student class\nclass Student extends Person {\n    private int rollNumber;\n\n    public Student(String name, int age, int rollNumber) {\n        super(name, age);\n        this.rollNumber = rollNumber;\n    }\n\n    @Override\n    public void displayDetails() {\n        System.out.println(\"Student Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Roll Number: \" + rollNumber);\n    }\n}\n\n// Teacher class\nclass Teacher extends Person {\n    private int subjectCode;\n\n    public Teacher(String name, int age, int subjectCode) {\n        super(name, age);\n        this.subjectCode = subjectCode;\n    }\n\n    @Override\n    public void displayDetails() {\n        System.out.println(\"Teacher Details:\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Subject Code: \" + subjectCode);\n    }\n}\n\n// Main class\npublic class StudentInformationSystem {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int personType = sc.nextInt(); // 1 for Student, 2 for Teacher\n        String name = sc.next();       // Assume single-word name\n        int age = sc.nextInt();\n\n        if (personType == 1) {\n            int rollNumber = sc.nextInt();\n            Person student = new Student(name, age, rollNumber);\n            student.displayDetails();\n        } else if (personType == 2) {\n            int subjectCode = sc.nextInt();\n            Person teacher = new Teacher(name, age, subjectCode);\n            teacher.displayDetails();\n        } else {\n            System.out.println(\"Invalid person type.\");\n        }\n    }\n}\n"
+          },
+          "hints": [],
+          "ignoreCase": false,
+          "setupFiles": []
+        },
+        "multipleChoiceOptions": {
+          "selectionType": "single",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": []
+        },
+        "fillInTheBlankOptions": {
+          "answer": ""
+        },
+        "descriptiveOptions": {
+          "answerTags": []
+        },
+        "partialScore": true,
+        "updatedBy": {
+          "_id": "43375cmu4",
+          "name": "Chetan Garg"
+        },
+        "createdBy": {
+          "_id": "42822rb2h",
+          "name": "Reshma"
+        },
+        "hash": "9b95390449ffedf268af120f08cdc5cf2ad83b80",
+        "created": "2025-07-11T15:30:35.025Z",
+        "updated": "2025-07-29T09:48:44.491Z",
+        "subType": "programming"
+      }
+    ],
+    "labMode": true,
+    "subjects": [
+      "PBLJ"
+    ],
+    "updatedBy": {
+      "_id": "4275k4vp6",
+      "name": "MEGHANA KAVALA"
+    },
+    "createdBy": {
+      "_id": "3zasqh492",
+      "name": "Akila Rengarajan"
+    },
+    "created": "2025-07-14T11:42:22.137Z",
+    "updated": "2025-07-30T11:27:34.075Z",
+    "permission": {
+      "organizations": [],
+      "branches": [
+        "43qxkvm6p",
+        "43qxeykxv",
+        "43qudeq72",
+        "43qmqdgyn"
+      ],
+      "batches": [],
+      "userGroups": [
+        "43qxb3c33"
+      ]
+    },
+    "questionProgress": [],
+    "testProgress": {
+      "_id": "43qnmjrus_43qejdgev",
+      "created": "2025-08-06T19:05:14.699Z",
+      "lastOpened": "2025-08-07T14:26:44.979Z",
+      "problemIdsOrder": null,
+      "test": {
+        "_id": "43qnmjrus"
+      },
+      "user": {
+        "_id": "43qejdgev"
+      }
+    }
+  }
+}

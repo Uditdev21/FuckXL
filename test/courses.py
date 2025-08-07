@@ -1,5 +1,6 @@
 import requests
 import json
+# from ui.mainwindow import token
 
 def make_authenticated_get_request(url, jwt_token):
     """
@@ -57,7 +58,7 @@ def save_json_to_file(data, filename="response.json"):
 
 # --- Configuration ---
 # Replace this with your actual JWT token
-YOUR_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0M3FlamRnZXYiLCJlbWFpbCI6IjIzYmNzMTA2NzhAY3VjaGQuaW4iLCJpYXQiOjE3NTQ0MTMzNDd9.uUJYWu_gTpkQKOHh7wWd3gkIlMYfabjKbCjzrrcGWRU"
+YOUR_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI0M3FlamRnZXYiLCJlbWFpbCI6IjIzYmNzMTA2NzhAY3VjaGQuaW4iLCJpYXQiOjE3NTQ0OTgwOTB9.l-PTYvYGGukJKdLElTSvAwWVxEx2oMLzukSRnNhQDT4"
 
 # The API endpoint you want to access
 API_URL = "https://bytexl.app/api/courses?includeMetrics=true"
@@ -70,13 +71,21 @@ if __name__ == "__main__":
         print(f"Attempting to fetch data from: {API_URL}")
         data = make_authenticated_get_request(API_URL, YOUR_JWT_TOKEN)
 
-        if data:
-            print("\n--- Received Data ---")
-            # You can pretty-print the JSON data for better readability
-            print(json.dumps(data, indent=4))
-            
-            # --- Save data to file ---
-            save_json_to_file(data, "courses_data.json")
-        else:
-            print("\nFailed to retrieve data or content not modified.")
+if data:
+    print("\n--- Received Data ---")
+    print(json.dumps(data, indent=4))
+
+    # --- Filter for CU courses only ---
+    cu_courses = []
+    if isinstance(data, list):
+        cu_courses = [course for course in data if str(course.get('title', '')).strip().startswith('CU')]
+    elif isinstance(data, dict) and 'courses' in data:
+        cu_courses = [course for course in data['courses'] if str(course.get('title', '')).strip().startswith('CU')]
+
+    # --- Clear the file and save only CU courses ---
+    with open("courses_data.json", "w", encoding="utf-8") as f:
+        json.dump(cu_courses, f, indent=4, ensure_ascii=False)
+    print(f"Filtered CU courses saved to courses_data.json. Total: {len(cu_courses)}")
+else:
+    print("\nFailed to retrieve data or content not modified.")
 
